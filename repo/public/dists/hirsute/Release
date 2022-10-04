@@ -1,0 +1,19 @@
+Origin: Dangerzone
+Codename: hirsute
+Date: Wed, 23 Nov 2022 15:43:18 UTC
+Valid-Until: Sun, 28 May 2023 15:43:18 UTC
+Architectures: amd64
+Components: main
+Description: Dangerzone packages (hirsute)
+MD5Sum:
+ bd4147cbdb4659d79fa945154cbc7905 734 main/binary-amd64/Packages
+ a12da2222392e512f966e1669183b0e4 480 main/binary-amd64/Packages.gz
+ 5c5b67445e86fab15651b166f384e915 98 main/binary-amd64/Release
+SHA1:
+ 0abdad84c79451db854098b703212495c2b06c8c 734 main/binary-amd64/Packages
+ b5bb8f884eee6d2b3a97b699d3c8308c176c63d3 480 main/binary-amd64/Packages.gz
+ 703e51e8baa4719e856643f3665db1ffd00e36ce 98 main/binary-amd64/Release
+SHA256:
+ 1b64e4fc3ebc6d452eb8a6bd30c316125332147a61b035d5f9bdd1abe6981eab 734 main/binary-amd64/Packages
+ ea161cf16da9b2848518a3d252cde04de338d3c76abb4741e12f55f6d54d540b 480 main/binary-amd64/Packages.gz
+ ce7421e1e50541ffa2a96ff1095859c95393a4c319a35c48170cc7380cec6bfe 98 main/binary-amd64/Release

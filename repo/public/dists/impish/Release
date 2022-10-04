@@ -1,0 +1,19 @@
+Origin: Dangerzone
+Codename: impish
+Date: Wed, 23 Nov 2022 15:43:07 UTC
+Valid-Until: Sun, 28 May 2023 15:43:07 UTC
+Architectures: amd64
+Components: main
+Description: Dangerzone packages (impish)
+MD5Sum:
+ bd4147cbdb4659d79fa945154cbc7905 734 main/binary-amd64/Packages
+ a12da2222392e512f966e1669183b0e4 480 main/binary-amd64/Packages.gz
+ 213bae8f127affa013c6db425baa0ebf 97 main/binary-amd64/Release
+SHA1:
+ 0abdad84c79451db854098b703212495c2b06c8c 734 main/binary-amd64/Packages
+ b5bb8f884eee6d2b3a97b699d3c8308c176c63d3 480 main/binary-amd64/Packages.gz
+ f456004ad57995666778c7fa663b6c0d78f96828 97 main/binary-amd64/Release
+SHA256:
+ 1b64e4fc3ebc6d452eb8a6bd30c316125332147a61b035d5f9bdd1abe6981eab 734 main/binary-amd64/Packages
+ ea161cf16da9b2848518a3d252cde04de338d3c76abb4741e12f55f6d54d540b 480 main/binary-amd64/Packages.gz
+ 2b7fdab289e37ff1b61145cdc0a9ad65267abe8b78ad10f536cbb243c49d593d 97 main/binary-amd64/Release

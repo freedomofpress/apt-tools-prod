@@ -1,0 +1,66 @@
+Package: autocanary
+Version: 0.2.1-1
+Architecture: all
+Maintainer: Micah Lee <micah.lee@firstlook.org>
+Installed-Size: 114
+Depends: python3:any
+Priority: optional
+Section: python
+Filename: pool/main/a/autocanary/autocanary_0.2.1-1_all.deb
+Size: 26308
+SHA256: f29ea81953783687359ab2015bca03cb41b0441a8abdab83351a09ca1cb410ac
+SHA1: efb4e5b86466120f19cebb3bbb6e6f32a30526bd
+MD5sum: f0e38334b1429c9115c964c1e7dbfc69
+Description: UNKNOWN
+
+Package: dangerzone
+Version: 0.4.0rc1-1
+Architecture: all
+Maintainer: None <None>
+Installed-Size: 795137
+Depends: python3:any (>= 3.6~), podman, python3, python3-pyside2.qtcore, python3-pyside2.qtgui, python3-pyside2.qtwidgets, python3-appdirs, python3-click, python3-xdg, python3-colorama
+Homepage: https://github.com/firstlookmedia/dangerzone
+Priority: optional
+Section: python
+Filename: pool/main/d/dangerzone/dangerzone_0.4.0rc1-1_all.deb
+Size: 807199336
+SHA256: 100ec0e2bb4257c8e3f4110742fe17068768a0e6fcbf2446aed0797503445696
+SHA1: 891ec4a940de6c5e6b36ed645d01f75b02fa9344
+MD5sum: 18137c31063c22988c9dc12d935e1b70
+Description: Take potentially dangerous PDFs, office documents, or images
+ Dangerzone is an open source desktop application that takes potentially dangerous PDFs, office documents, or images and converts them to safe PDFs. It uses container technology to convert the documents within a secure sandbox.
+
+Package: flock-agent
+Version: 0.1.5-1
+Architecture: all
+Maintainer: Micah Lee <micah.lee@firstlook.org>
+Installed-Size: 2004
+Depends: python3:any (>= 3.6~), python3, python3-pyqt5, python3-requests, python3-appdirs, python3-aiohttp, python3-packaging
+Homepage: https://github.com/firstlookmedia/flock-agent
+Priority: optional
+Section: python
+Filename: pool/main/f/flock-agent/flock-agent_0.1.5-1_all.deb
+Size: 1836872
+SHA256: 6e854cc16705ba643c0e22e1e4cee9bb9ec1c19301e723b5e6a7d6e21dc18667
+SHA1: ad17be14b7178a64a68c0dcc052c73b80d648d20
+MD5sum: 0ed8ac78398b68012824d1c9e41f9767
+Description: Agent for Flock, the privacy-preserving fleet management sys
+ Agent for Flock, the privacy-preserving fleet management system. The goal of Flock is to gain visibility into a fleet of workstation computers while protecting the privacy of their users. It achieves this by only collecting information needed to inform security decisions, and by not allowing the IT team to access arbitrary files or execute arbitrary code on the computers they are monitoring.
+
+Package: gpgsync
+Version: 0.3.6-1
+Architecture: all
+Maintainer: Micah Lee <micah.lee@theintercept.com>
+Installed-Size: 162
+Depends: python3:any, python3-pyside2.qtcore, python3-pyside2.qtwidgets, python3-pyside2.qtgui, python3-requests, python3-socks, python3-packaging, python3-dateutil, gnupg2
+Homepage: https://github.com/firstlook/gpgsync
+Priority: optional
+Section: python
+Filename: pool/main/g/gpgsync/gpgsync_0.3.6-1_all.deb
+Size: 29716
+SHA256: cd456365760d27daad4c6fc42ff29ba64f91a8f14311e4d9c79ba11c8c27b5f1
+SHA1: 0cea6dda3865f112d775146b7b26d23763a0fa37
+MD5sum: 8094ac176b75c0cb038a1da8950ffcad
+Description: GPG Sync lets users have up-to-date public keys for all othe
+ GPG Sync lets users have up-to-date public keys for all other members of their organization. If you're part of an organization that uses GPG internally you might notice that it doesn't scale well. New people join and create new keys and existing people revoke their old keys and transition to new ones. It quickly becomes unwieldy to ensure that everyone has a copy of everyone else's current key, and that old revoked keys get refreshed to prevent users from accidentally using them.
+
