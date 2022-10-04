@@ -1,0 +1,19 @@
+Origin: Dangerzone
+Codename: bullseye
+Date: Tue, 15 Nov 2022 21:42:47 UTC
+Valid-Until: Sat, 20 May 2023 21:42:47 UTC
+Architectures: amd64
+Components: main
+Description: Dangerzone packages (bullseye)
+MD5Sum:
+ f8beb91f710b1fbb118eb0d90baa95f8 3366 main/binary-amd64/Packages
+ 5b5257ea0e4f247fce08bb7d27ddfaa2 1474 main/binary-amd64/Packages.gz
+ 1f0ae5c83457b295048724f64ff75d94 99 main/binary-amd64/Release
+SHA1:
+ baac2aef9097a2e70ad01e95e167721e5eb7461f 3366 main/binary-amd64/Packages
+ b1016f33e4d774b9fd40cd18cb77c965c6363a01 1474 main/binary-amd64/Packages.gz
+ 3f09503d81ba98e1c97547aadc2cdcef286c6e9b 99 main/binary-amd64/Release
+SHA256:
+ 8c43907fe3d35896bd5fb5a0dadb4ee26a278722a4bada0c6ddb1688c21a33aa 3366 main/binary-amd64/Packages
+ 6cefacfa1b2ae6539727bba06be76ffe158764b09209178614523172a634c9c5 1474 main/binary-amd64/Packages.gz
+ 88290bd9d634910600296f4c2ff63cc0d2c476e49d292ecd4c519edf83b11b96 99 main/binary-amd64/Release

@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Dangerzone
+Codename: bookworm
+Date: Tue, 15 Nov 2022 21:42:22 UTC
+Valid-Until: Sat, 20 May 2023 21:42:22 UTC
+Architectures: amd64
+Components: main
+Description: Dangerzone packages (bookworm)
+MD5Sum:
+ 043d5c05cc3861e8ac7ab0b29dbb8839 716 main/binary-amd64/Packages
+ fceb92d21a97526e1ce0fcfe21642741 474 main/binary-amd64/Packages.gz
+ d63023616f31bc57cc9ff9aae3b3da69 99 main/binary-amd64/Release
+SHA1:
+ a46259240018d538a85f0580b633a4501fc15375 716 main/binary-amd64/Packages
+ b2278e6fd18dd57282ce3070c96d43c0271d5c4e 474 main/binary-amd64/Packages.gz
+ 9558cc36c06fc891d28755b43f8317647337dd87 99 main/binary-amd64/Release
+SHA256:
+ 5ab0976e9305b2db009abee4896072b5ff0b5b46b965b5ad30d473d559a5b319 716 main/binary-amd64/Packages
+ 5b53fd5019e0a520ab491dc9612653dd39f5b8d12f5f1c6fca4e6a690023ef7f 474 main/binary-amd64/Packages.gz
+ 26f9bfc7b0cc94efe2e853b6fddf80bc3948c4de5811457854da2f43ef168cdf 99 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEECxfgcfPI9IxvgoQCW7Dn3IFc8fQFAmN0B78ACgkQW7Dn3IFc
+8fQK+Av/c22rEy7ggL2wOey4N5ss9GN9SBMDz/WcqiLTtmbvW+lrwI42Ud/AbMpZ
+npVpH8UXovFhZAZPfkX/oofyiRvjj2OfDfoOZ/SQH9rb3W+SSuxIi8TLgqyQ7ZdC
+nDdzNZj4StheiOAo5I4XKSN0uEKW1pjcYo5NLngphDfePlPDcuyfmr0Urs0/zEJZ
+h9wXgRni1Psj24TnqsjoJlNAXRBUlM9zLvkTRj96AOW9wS/jjCDCfyVDyNoTmkJo
+MHugRoJtDUTeIKQAiMS/LZ0JFZXWwMYVMNNj8Z9zn3D4gEM+rVE3KDRwgqsvljc8
+2VkAXN4uroTkmWHiIDOdjwGVuddwghv4DprQBy85PU0os+dYcfUpiE8ph10vbdPT
+LkhKza5IHtqFYwiUWtam+Lhd5ZmAVi7Hndmp2kvhHEepdKCxYGyKiSmWhfLBtmrm
+rQt6IQcs+1Nh0vmNaOKcAr5c1PJUl+EMaU6qmuQQDRUnM8ur70teO6HEEmV56Nak
+cBsRx3O2
+=ivzs
+-----END PGP SIGNATURE-----

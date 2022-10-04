@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Dangerzone
+Codename: groovy
+Date: Tue, 15 Nov 2022 21:41:58 UTC
+Valid-Until: Sat, 20 May 2023 21:41:58 UTC
+Architectures: amd64
+Components: main
+Description: Dangerzone packages (groovy)
+MD5Sum:
+ bd4147cbdb4659d79fa945154cbc7905 734 main/binary-amd64/Packages
+ a12da2222392e512f966e1669183b0e4 480 main/binary-amd64/Packages.gz
+ c7e47c74ac8ead9feaac251e37d467fe 97 main/binary-amd64/Release
+SHA1:
+ 0abdad84c79451db854098b703212495c2b06c8c 734 main/binary-amd64/Packages
+ b5bb8f884eee6d2b3a97b699d3c8308c176c63d3 480 main/binary-amd64/Packages.gz
+ 37834e102604ba18dd20e51f03cc12fc959ea5d4 97 main/binary-amd64/Release
+SHA256:
+ 1b64e4fc3ebc6d452eb8a6bd30c316125332147a61b035d5f9bdd1abe6981eab 734 main/binary-amd64/Packages
+ ea161cf16da9b2848518a3d252cde04de338d3c76abb4741e12f55f6d54d540b 480 main/binary-amd64/Packages.gz
+ 2b1210500f597b45055bf3fb4fcdaff6041370ae2b7f88dfa204a1e40bf916af 97 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEECxfgcfPI9IxvgoQCW7Dn3IFc8fQFAmN0B6YACgkQW7Dn3IFc
+8fRn6Av/WUNWZi9aSohAgW09xDBet5xGaO+MV0pedDPD9Pj87VGPcPyCDbK1NfHD
+PEidnrXhs8bO4h2K9h150y2/15sYA9AnCWRLvtn+5DKfcB1nm0Xyx4Q5/pPyN33b
+E4P1vH2XG66GyvFCUSbiQOEQSQNWBLNMbvyvHx9GzmtK8MrPzCXgqdIi2ykVFuUR
+a2Ig6AaEdgCSbC7RnNVsk4TXvqH+GNsjpEJPXwxjZPBGkG15yyKMHmKDIMMwYoLQ
+zqPPaxiJALLx52B5TbUYVwxF/BMRNSEQ4duQc0dwlye3kUC3cpoo+3a1WaTUwuxF
+HWalIwRwAImU8W+YWsPavkhs198by8A0xCqSUAR3p+R9XHSOqy5thGjcvyGRxM6v
+qeZh6W4Hfema+nOd8oiut4BrMXTf1lIkTgNGuy8/iKJNlTJPIF54wLGjgHsBXMDK
+ht8s/p8Zz28cChRznmVZMloWIHEJvqzN/qKqC5qXWnWPTWoPI8rHM+XZXnX7CrDN
+Oct58wFI
+=Wchx
+-----END PGP SIGNATURE-----
