@@ -9,7 +9,8 @@ Currently, this includes [Dangerzone](https://dangerzone.rocks/).
 - A very recent (>= 5.4) version of
   [reprepro](https://salsa.debian.org/brlink/reprepro), for
   multiple-version support. Tested by building from source in Debian
-  experimental.
+  experimental. To install from source, try [this
+  repo](https://github.com/ionos-cloud/repreprohttps://github.com/ionos-cloud/reprepro).
 - `zstd`, for newer Ubuntu distributions and future Debian distributions
   (this has not been throughly tested yet).
 
@@ -25,3 +26,9 @@ Currently, this includes [Dangerzone](https://dangerzone.rocks/).
 
 When PRs are merged, `packages.freedom.press` will pull new files and
 serve the contents of `repo/public`.
+
+## TODO
+
+Since installing reprepro currently requires building it or running
+Debian unstable, we will containerize it in the near future. This will
+require communicating with GPG on the host or injecting the key, though.
