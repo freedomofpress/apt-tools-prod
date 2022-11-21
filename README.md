@@ -10,7 +10,7 @@ Currently, this includes [Dangerzone](https://dangerzone.rocks/).
   [reprepro](https://salsa.debian.org/brlink/reprepro), for
   multiple-version support. Tested by building from source in Debian
   experimental. To install from source, try [this
-  repo](https://github.com/ionos-cloud/repreprohttps://github.com/ionos-cloud/reprepro).
+  repo](https://github.com/ionos-cloud/reprepro).
 - `zstd`, for newer Ubuntu distributions and future Debian distributions
   (this has not been throughly tested yet).
 
