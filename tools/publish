@@ -5,8 +5,14 @@ Expects a certain dir structure, will loop over distributions
 specified in subdirectories, then publish all deb packages
 found in each.
 """
+
+import argparse
+import logging
 import os
 import subprocess
+import sys
+
+logger = logging.getLogger(__name__)
 
 
 REPO_ROOT = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir))
@@ -19,7 +25,7 @@ REPO_DIRS = [
 ]
 
 
-def publish_packages(repo_subdir):
+def publish_packages(repo_subdir, distros=None):
     """
     Lists all deb packages, first by parent repo, then by distribution,
     and adds them via reprepro, updating metadata in the process.
@@ -29,6 +35,11 @@ def publish_packages(repo_subdir):
     repo_distros = os.listdir(repo_path)
     # Add deb packages for each distro, by codename
     for distro in repo_distros:
+        if distros and distro not in distros:
+            logger.info("Skipping distro '%s' due to user's choice", distro)
+            continue
+        logger.info("Publishing packages of distro '%s'", distro)
+
         distro_path = os.path.join(repo_path, distro)
         if '-' in distro:
             distro, component = distro.split('-', 1)
@@ -56,12 +67,14 @@ def publish_packages(repo_subdir):
 
         cmd += debs
         subprocess.check_call(cmd)
+        logger.info("Successfully published packages of distro '%s'", distro)
 
 
 def validate_repo():
     """
     Confirm that repository is well structured.
     """
+    logger.info("Validating repo")
     reprepro_validations = [
         "check",
         "checkpool",
@@ -76,6 +89,7 @@ def validate_repo():
             action
         ]
         subprocess.check_call(cmd)
+    logger.info("Successfully validated repo")
 
 
 def get_release_files():
@@ -107,10 +121,72 @@ def signing_instructions():
     print("and commit those changes to finalize the release.")
 
 
-if __name__ == "__main__":
+def parse_args():
+    parser = argparse.ArgumentParser(
+        prog=sys.argv[0],
+        description=(
+            "Update the local APT repository and publish the .deb packages"
+        ),
+    )
+    parser.add_argument(
+        "--distros", required=False, nargs="+",
+        help="Operate on a set of specific distros (default: all)"
+    )
+    parser.add_argument(
+        "--TEST-no-validate", default=False, action="store_true",
+        help=(
+            "DANGEROUS! Do not validate the repo. Should be used only for"
+            "testing"
+        )
+    )
+    return parser.parse_args()
+
+
+def setup_logging():
+    """Simple way to setup logging.
+
+    Copied from: https://docs.python.org/3/howto/logging.html
+    """
+    # create logger
+    logger.setLevel(logging.INFO)
+
+    # create console handler and set level to debug
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.INFO)
+
+    # create formatter
+    formatter = logging.Formatter(
+        "%(asctime)s - %(levelname)s - %(message)s"
+    )
+
+    # add formatter to ch
+    ch.setFormatter(formatter)
+
+    # add ch to logger
+    logger.addHandler(ch)
+
+
+def main():
+    args = parse_args()
+    setup_logging()
+
     assert os.path.exists(REPREPRO_DIR)
-    validate_repo()
+
+    if args.TEST_no_validate:
+        logger.warning("Skipping repo validation")
+    else:
+        validate_repo()
+
     for repo in REPO_DIRS:
-        publish_packages(repo)
-    validate_repo()
+        publish_packages(repo, distros=args.distros)
+
+    if args.TEST_no_validate:
+        logger.warning("Skipping repo validation")
+    else:
+        validate_repo()
+
     signing_instructions()
+
+
+if __name__ == "__main__":
+    sys.exit(main())
