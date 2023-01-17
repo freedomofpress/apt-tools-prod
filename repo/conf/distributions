@@ -15,6 +15,14 @@ Description: Dangerzone packages (bullseye)
 SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
 
 Origin: Dangerzone
+Codename: focal
+Components: main
+Architectures: amd64
+ValidFor: 6m
+Description: Dangerzone packages (focal)
+SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
+
+Origin: Dangerzone
 Codename: groovy
 Components: main
 Architectures: amd64
@@ -44,4 +52,12 @@ Components: main
 Architectures: amd64
 ValidFor: 6m
 Description: Dangerzone packages (jammy)
+SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
+
+Origin: Dangerzone
+Codename: kinetic
+Components: main
+Architectures: amd64
+ValidFor: 6m
+Description: Dangerzone packages (kinetic)
 SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
