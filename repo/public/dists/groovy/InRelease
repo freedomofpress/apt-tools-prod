@@ -3,34 +3,34 @@ Hash: SHA512
 
 Origin: Dangerzone
 Codename: groovy
-Date: Wed, 23 Nov 2022 15:43:28 UTC
-Valid-Until: Sun, 28 May 2023 15:43:28 UTC
+Date: Thu, 09 Feb 2023 15:40:25 UTC
+Valid-Until: Mon, 14 Aug 2023 15:40:25 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (groovy)
 MD5Sum:
- bd4147cbdb4659d79fa945154cbc7905 734 main/binary-amd64/Packages
- a12da2222392e512f966e1669183b0e4 480 main/binary-amd64/Packages.gz
+ 12c704868c12b7be72d0de4d53631253 958 main/binary-amd64/Packages
+ 863ab98f3e2b6b3da5db73b4a18745d0 577 main/binary-amd64/Packages.gz
  c7e47c74ac8ead9feaac251e37d467fe 97 main/binary-amd64/Release
 SHA1:
- 0abdad84c79451db854098b703212495c2b06c8c 734 main/binary-amd64/Packages
- b5bb8f884eee6d2b3a97b699d3c8308c176c63d3 480 main/binary-amd64/Packages.gz
+ 0b669a18b5e7a5b68b7c262a7d7dd98343a2704c 958 main/binary-amd64/Packages
+ a1990276ecf5b35c0d1400f1a774d65cc4ad98ce 577 main/binary-amd64/Packages.gz
  37834e102604ba18dd20e51f03cc12fc959ea5d4 97 main/binary-amd64/Release
 SHA256:
- 1b64e4fc3ebc6d452eb8a6bd30c316125332147a61b035d5f9bdd1abe6981eab 734 main/binary-amd64/Packages
- ea161cf16da9b2848518a3d252cde04de338d3c76abb4741e12f55f6d54d540b 480 main/binary-amd64/Packages.gz
+ 2dd6d3f9dc322d84fb04bb4a3401bafc5a00675a6e801c1a2352c0473c2629c1 958 main/binary-amd64/Packages
+ adab42dd8fb50435ca191fe94f5acd5d2ee86c3caa4f307b584842e0abae2ccf 577 main/binary-amd64/Packages.gz
  2b1210500f597b45055bf3fb4fcdaff6041370ae2b7f88dfa204a1e40bf916af 97 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEECxfgcfPI9IxvgoQCW7Dn3IFc8fQFAmN+P6AACgkQW7Dn3IFc
-8fSg9wv/bgvn71nR5GQKLfuz9EPxClcVDmsCtEigsYf9OqFIqjvd5AR01ORIQsFl
-HWX3id1fS0uZpFbGmX2B4Ubj4pZuK8W0/C8JyoOizMevYEGTVHohmsS3DcVtHjzw
-rj6lwwaoFg4hvPrhbnMv7uBmzuFspR+5UO6qt1otvzYXtlrjMVNNUK+qw0P49OsS
-gLw3LfFTC1rUMfKk5DTpJ/MG+e+W0eONSmSDVXvokPDCkGGsdAw2WWqY7nvOgZ5U
-avExBdOvA3qA2ha+3r0QE497N0L0C+rk9uSOR9x+Lx63VX5KqYZjUUC5vJ8tPUo7
-tbzCZsbFW4SJEfmUFuGGMxLMSN9COov02FWLs3iiPVOE7ClI4r7LNinXwb0x7/4J
-6B5ZVJH0IrDrJ4+99oWvDYTPGalgDc2E3GlsOZRDGwYX1P34/UL3a8zzNAII2YA9
-BeKOX7X5ueKR2KysNl0znr7UH+OoKoXy3CbzeqUqi/atqon0bMsYoGAzLHw8zyFL
-BHNdnf+m
-=ctvP
+iQGzBAEBCgAdFiEECxfgcfPI9IxvgoQCW7Dn3IFc8fQFAmPlE+kACgkQW7Dn3IFc
+8fRYEgv9GcZ1Y4OcwNkYE2ynh5jb1xf1aV2ewEoSHU8h4abDFH7I2v26JQLjFMVc
+jgPsMpbFUWknMJDY/z0PQSNTTnr40hBzPpGZKEayOvLZu7v9WOSmqi/N4/W1fYbZ
+MV/sOLb+IhxQmAXiBwDe1SMbG4z+0gdQ+o1BMwNBwZbdymFDtzwXcyeK7SY8qKVc
+b/EXZ6JGnRejwaNEh1/mbMLFgBdwr+o6GbNlEFq4iYgcbEuSMvOEUwT7QkKT0q73
+w0+9P/TJ1LJvQdHHJwlUGrPJn4xJ5KgaNQ/U+jibb3Oid/GfR6I5wgacJwpE65zO
+KgzOgHtPvEg/lwiKuFcvrhEs3M/9oi2hpUyxfuaFiHqoTZJZRXENci7jhy/GzioJ
+BHIUs9WOGK4B3812QbRNQY5ISVz8sJWBnz1F+NsmAtrTVrZAYUmoASQXj4MIybgY
+s6NDr/aripNb12aYLRofehLgi6ZbYiYfQ2JTPKzD/cascdiMUyotl56djq+qtjov
+XJdcyOWN
+=CSI7
 -----END PGP SIGNATURE-----

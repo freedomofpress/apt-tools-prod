@@ -1,36 +1,36 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+Hash: SHA512
 
 Origin: Dangerzone
 Codename: bookworm
-Date: Tue, 17 Jan 2023 22:07:10 UTC
-Valid-Until: Sat, 22 Jul 2023 22:07:10 UTC
+Date: Thu, 09 Feb 2023 15:40:30 UTC
+Valid-Until: Mon, 14 Aug 2023 15:40:30 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (bookworm)
 MD5Sum:
- ab528bcfab4ca7f37ffb6bedd69fba3f 944 main/binary-amd64/Packages
- 23e32fed83a7363eea56a875b0b594da 570 main/binary-amd64/Packages.gz
+ 3737894adb774bdf0882ea06b3d813fc 958 main/binary-amd64/Packages
+ c545620c0a940d3f774be163a53fd8d9 577 main/binary-amd64/Packages.gz
  d63023616f31bc57cc9ff9aae3b3da69 99 main/binary-amd64/Release
 SHA1:
- 37aba375abcea305161da905939171b52d0fdfa0 944 main/binary-amd64/Packages
- 727d55d7cdb4ab60816801b2b447c47fa1b57851 570 main/binary-amd64/Packages.gz
+ c1606be7b1a2c5f0fed56d6fc288af18850ad4f1 958 main/binary-amd64/Packages
+ 676fe482acaa68d4f40014fb1a2bf77fc709af36 577 main/binary-amd64/Packages.gz
  9558cc36c06fc891d28755b43f8317647337dd87 99 main/binary-amd64/Release
 SHA256:
- e6b795723d6fa14461f47c9aa94d777c84aefedd97d1755c9bd29de17f53f642 944 main/binary-amd64/Packages
- 4f6e1bac686e2663e37fc43bc157741502032f0305688ff2f90398174b8fdd7e 570 main/binary-amd64/Packages.gz
+ 9a6fb4f3d4459bfed3502fecb04a6a5a7c9e645603684e82cd2d297b2a94d8e8 958 main/binary-amd64/Packages
+ 31467ae964b11b7651a0539f31f4d23c54b4494f965f5e3b0d3cd56d8d749bb1 577 main/binary-amd64/Packages.gz
  26f9bfc7b0cc94efe2e853b6fddf80bc3948c4de5811457854da2f43ef168cdf 99 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEECxfgcfPI9IxvgoQCW7Dn3IFc8fQFAmPHHA4ACgkQW7Dn3IFc
-8fQaGgv/THwhzPPBgkjGRb47BgXs6gLHkgEwElna55xGnqEnMwhPCY8fZ/LcFJ8y
-94fgfu8hmgcKJ8Wup1JjgGN9Wd6ohZFqi/ft3mn7DleEl7sAqJ1TvuMMZhUZn7Ya
-74V3VG5P41cI8UYunQIXQ5tIOGORHZlZo31d9H9Kj4j0yOBUbJU8ESWPyWuRzIJh
-DcbVFSJciQocTv46eMSgvvbcCgAQQEfpM9GGa0eYxwSfdThYnwfahz+V955qlMqQ
-gjXpOE/oUCIUunEuuq8AiCZ/SdK2I9AQZPTkDB7uY6fYY19O4MwpqSR/5/deTQn7
-cg5ijLCpGgkA5MdZnCcLwl09bUoiagO5P9WDVh9rjUtdoEtMRArNSEYB5xXl2XnW
-Y6ccivlbLORXTImWHpGO/AQYsYriMm9/9dmIeCu47ptBbN821bVlRzmlbP8Cq0Nv
-33rNwYSowmxTcdrrW3+ZQQuRW1+qpbYNC5M4RYnWmMBxcSV0ujOmJyQBQrV6Zsbd
-13qWmQBC
-=TNax
+iQGzBAEBCgAdFiEECxfgcfPI9IxvgoQCW7Dn3IFc8fQFAmPlE+4ACgkQW7Dn3IFc
+8fQQ+Av/cny/dWeGNNb12AzjWz/nh4NKOSCbLxT9E62Me/Rf3oIz62a7Oj18IDLl
+wyrvQF93JZtAUiEmJiwi4xihhlsf2ZWOTlrdjyXW0kq6HuKwOYnsRE3eo9JHFlj7
+o6yHWs3KGi9Myxggg5Gy/U6MCjTREclgNbbA956M6NPeqr49ijH9degr6oqPI4eo
+i41aEyN7Rqopma3Br4J0Zdcx6wGu1TZlr4W3AI0pFwj+dNLxkqqpDM0aEnbTCeT2
++Rhiw3WHuJ0DJO9yhWAcSCnMAse45bD8Viab0HtOTbJ/GCDoSJwDxBfHMDDlP2yZ
+cxGoM533ELe+CNz0/JfnBZesN8Mz70ywK9pJR7NmV5MRYnYmKqNC/jHQb77Wdbwy
+mFDUN+mq2FxTr0htd2CyRsP3bpVoRd7eerVpoi+z2G8/pcT7od9ZD1K6AzgQ9Yax
+ZJWaejeLHKi87ysKao5t19bOECoH96w+Bp0t5OZ60nBIMZpNfTilmdHy0IkktkV5
+O6see9L5
+=csaH
 -----END PGP SIGNATURE-----
