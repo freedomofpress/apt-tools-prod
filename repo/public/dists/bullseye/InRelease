@@ -1,36 +1,36 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
+Hash: SHA256
 
 Origin: Dangerzone
 Codename: bullseye
-Date: Thu, 09 Feb 2023 15:40:45 UTC
-Valid-Until: Mon, 14 Aug 2023 15:40:45 UTC
+Date: Tue, 14 Feb 2023 22:16:29 UTC
+Valid-Until: Sat, 19 Aug 2023 22:16:29 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (bullseye)
 MD5Sum:
- 60155dbbb5f9de0648bf9fa3d7b3b22a 3608 main/binary-amd64/Packages
- 8c29ad61a4c540e6b2e97b4d1afd7629 1586 main/binary-amd64/Packages.gz
+ c428c69b832b0c9763089b06dac7e4dc 3608 main/binary-amd64/Packages
+ a3e895675d2683545eeb458eae52ae41 1609 main/binary-amd64/Packages.gz
  1f0ae5c83457b295048724f64ff75d94 99 main/binary-amd64/Release
 SHA1:
- 6a54cfa6621d0f7418e8080fa5f1e4cfd2a3c073 3608 main/binary-amd64/Packages
- e43428cdce3164b97db3ffc7442d3368cd779699 1586 main/binary-amd64/Packages.gz
+ 14035d0367b869997058991238cedbe7cb5bc889 3608 main/binary-amd64/Packages
+ f35ffeb410e34001d0900e5be746db1384599528 1609 main/binary-amd64/Packages.gz
  3f09503d81ba98e1c97547aadc2cdcef286c6e9b 99 main/binary-amd64/Release
 SHA256:
- 3a4a59b347e93b183ad3c7af6a8bee23e6dc7948770b3653b98d3ccc2b31bc5a 3608 main/binary-amd64/Packages
- fa89f518b8970b46db189b188badb36c75afa0d0d11ef0fda5c136a9566d921e 1586 main/binary-amd64/Packages.gz
+ 557398feb92622fccf91de9fe3801bab4f645b65ca836e806c82d39dcd1c6704 3608 main/binary-amd64/Packages
+ 182f2dfb87d4cec3df91845ee1cb96cc97a63600093308c748ffbdb7e04a36e2 1609 main/binary-amd64/Packages.gz
  88290bd9d634910600296f4c2ff63cc0d2c476e49d292ecd4c519edf83b11b96 99 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEECxfgcfPI9IxvgoQCW7Dn3IFc8fQFAmPlE/4ACgkQW7Dn3IFc
-8fTp1gv9ELr9gxQSLb8rpHKNpB5rTc4lR6vl8BAXBpXWbW8wBmJXwx6Vy6zsDO0V
-5BlenCGevqidlFx369kY/VC8mbql56C8g8PQMF2MkaX/XEF8eYBnhzZy3PCE1iDZ
-tTxx2s+0uFGNBAooyRRDGdrP6sBpjcUBV5gSYvHNWvnchfI4vCqtFI8RFRklKNkT
-if/btWRtnQcNgm8ntZiDUO0nmukbbsm2ogdObeSPV2dLWkY0hLPkUexZ63NcGEHS
-AbvEs8kcAZP83h9xfw53HA9Kc2GduhFI7Q+ZOe6PjXTci6Z7GPJI4D0pwQL6Sf7S
-ResaLvDCDXPiVvOeUipkBcv1l+xi0zbrMXryeMkt+EQ8e7SFzzuexrGDJKGRU5KE
-yADJNQ0PXluvbpDcS+Z6bifBR4f0fUXpEPEX6yPHg1MwKp8dnFfuTXHs+fegHsHp
-4qspJpkuMnJibCXeU8kBUyZC4HH1Em3rjtsHezH4YOmZ6ZYnwbEW/82D27WhU2cv
-aS9PjgR1
-=YwUj
+iQGzBAEBCAAdFiEECxfgcfPI9IxvgoQCW7Dn3IFc8fQFAmPsCD0ACgkQW7Dn3IFc
+8fQzWAwAhkjax7hy9Uzwjj3g95T9HRuu4FV85py00KwFh5n/2E2oDpGo8yfXAXjQ
+Y+HphMQf6KYPYGFGBGZyRsdcPMJsdxwkBDtMCYPboId4jkzXusaMTLGjfUXVnoC5
+ZIZBLnIQQpvBB4iKCdTdUwaL9hZDto6DFEGBHDEA5pJbLhEYqTDCJzNMEpnLFNYe
+VktNOBSH1OeX7q6qh3WdMwyJVB4Jn3bUJlRJa8/fJ1MluQRUpMIZGqCl+RWL4CRU
+9IKWpzcBJX6CTuLBpB/8DBhIedO8ynEom2QYfmc6HsRO5IeT2WjTmgnRce62GW0O
+wuIitTG3JXgvKOASW7le7aMMdd195RLeMt39Dt3+cKk9+nPyjOqSbJpPX99H9dzn
+G+DsH2twgpfPLVViEthRg53fJnmnmevt+0ViRWhu51pmPRxiXQsdOZ11UmhxDZgB
+w7RAWjSvVTJDRXk5DOdtCzxn6Dzk8CjjpO+O7fuJOb/fUYAwrOZZ1MdcV8ka/srQ
+0mm7ixJc
+=Awzl
 -----END PGP SIGNATURE-----

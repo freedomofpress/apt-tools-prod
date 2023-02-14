@@ -23,30 +23,6 @@ Description: Dangerzone packages (focal)
 SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
 
 Origin: Dangerzone
-Codename: groovy
-Components: main
-Architectures: amd64
-ValidFor: 6m
-Description: Dangerzone packages (groovy)
-SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
-
-Origin: Dangerzone
-Codename: hirsute
-Components: main
-Architectures: amd64
-ValidFor: 6m
-Description: Dangerzone packages (hirsute)
-SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
-
-Origin: Dangerzone
-Codename: impish
-Components: main
-Architectures: amd64
-ValidFor: 6m
-Description: Dangerzone packages (impish)
-SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
-
-Origin: Dangerzone
 Codename: jammy
 Components: main
 Architectures: amd64
