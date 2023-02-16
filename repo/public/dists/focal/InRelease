@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Dangerzone
+Codename: focal
+Date: Tue, 14 Feb 2023 22:16:44 UTC
+Valid-Until: Sat, 19 Aug 2023 22:16:44 UTC
+Architectures: amd64
+Components: main
+Description: Dangerzone packages (focal)
+MD5Sum:
+ 7b23427b6bb597b3a064cc8566a0e26e 958 main/binary-amd64/Packages
+ 281fd38fe6fd0b38f9dc08e93b8560d1 572 main/binary-amd64/Packages.gz
+ 0aff671f0e00ef5fe6d7eed2d5b1d00c 96 main/binary-amd64/Release
+SHA1:
+ 4116ca88e6dce93ed608a2f98795340f9953f3bf 958 main/binary-amd64/Packages
+ f120c81593a00b80ef785c81832fc92ce49ebcfd 572 main/binary-amd64/Packages.gz
+ 5a85262f40af8c2fe68525ed7cb62791029230ed 96 main/binary-amd64/Release
+SHA256:
+ 82d0e13ff43f847ce1b479fb2d7c7b3429c75d25d85c74d348c68316eae292bf 958 main/binary-amd64/Packages
+ 7a8ab86d3e7f55d206601a78071aff31e63ec41239035c8e6a051b552e467832 572 main/binary-amd64/Packages.gz
+ aff1619021d39567260d7d8c2fe24a177eb05fc7c5e0ebd7c61f06d4e6a37f52 96 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCAAdFiEECxfgcfPI9IxvgoQCW7Dn3IFc8fQFAmPsCEwACgkQW7Dn3IFc
+8fS+MQv+Lms2R008upD1vgGfj/9FjDGUZ12vVvinqcE8IsnwYWQVmI8V9CSSh27j
+3JjDWkuIPlvrb8X46OgFXFL8QppLb1T0OXgIoVvCVDvgOB42EzNbPOPz48f+TsPY
+3UkIrSjK5VfhGIQMWf4YJSYf/uhsNzvBTAF4eK7k0j/K+jj4jfaPDLsnFlKgIT9Y
+5MIYx8vkarvnVAtmuAPoHC9LfkZxsdQmzpb7VIZa90hnXICWcuubBQZfsp0U7lMw
+Nm+TgAvOogHA+wWZfJLOKbRbkP+Xy3UJDXKD+WRS+/5+Q5EcCH12QRvg2fTNYskx
+tTYa2cvOdouuL2f+UnWqgYZzlp1hmmPC891Vkr7Fv8HSWuu3z3N3Ik81L1A221Jn
+uuAsO1R/5XN3uETY6th4eI7pdFUWZqQh+M/axk3+FTpObjrj49oSa8fR/ovqSy2l
+XCd5aC9IzHcCwG415oGQgrQ+dmEi4VrMeUQxmHdnWMUL4DIpjxt4ejnA9t6I0glY
+Xp9MDSpV
+=IRGX
+-----END PGP SIGNATURE-----

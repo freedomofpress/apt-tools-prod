@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Dangerzone
+Codename: kinetic
+Date: Tue, 14 Feb 2023 22:16:58 UTC
+Valid-Until: Sat, 19 Aug 2023 22:16:58 UTC
+Architectures: amd64
+Components: main
+Description: Dangerzone packages (kinetic)
+MD5Sum:
+ 7b23427b6bb597b3a064cc8566a0e26e 958 main/binary-amd64/Packages
+ 281fd38fe6fd0b38f9dc08e93b8560d1 572 main/binary-amd64/Packages.gz
+ c83dfdc547bcb4fe7a874162a1578751 98 main/binary-amd64/Release
+SHA1:
+ 4116ca88e6dce93ed608a2f98795340f9953f3bf 958 main/binary-amd64/Packages
+ f120c81593a00b80ef785c81832fc92ce49ebcfd 572 main/binary-amd64/Packages.gz
+ c77afbb10b5db00aff80f61bdf1aad71843f021f 98 main/binary-amd64/Release
+SHA256:
+ 82d0e13ff43f847ce1b479fb2d7c7b3429c75d25d85c74d348c68316eae292bf 958 main/binary-amd64/Packages
+ 7a8ab86d3e7f55d206601a78071aff31e63ec41239035c8e6a051b552e467832 572 main/binary-amd64/Packages.gz
+ 53bf600aa2bcf3e1b363b6d803496508e81acd3fefdd4aa6c5e90621f2d22fe3 98 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCAAdFiEECxfgcfPI9IxvgoQCW7Dn3IFc8fQFAmPsCFoACgkQW7Dn3IFc
+8fQPZQwAmHZp22MojeWxN/WAb3GSMMDYEJhDc4T3o47lrxZv5GbLd0Fpcu4sFbDY
+6jXoILedRQTfHF2FBCLB1OiOP0DSHyT9uucDXWIMxIsAQaCFPJ/F20wSRSEtxVFn
+N0A0B/Y+IKTnH62A97pD2zdQ6OULyo4taj1h4nbs6ZcMzrxFtWwkLS7Jh/AyAMmm
+/qdmlD8j67OQv3QJW6hC1sgaOkpHTRCv6eYVUSq2KnTOKh1WxAVcegxa64vgb2Vu
+RECQUnAAUIB1SWZ8gkdI5cpVthdT+x9JxCee/EcPlyHm/QeWixsROw0lcNCSUUVF
+Y7ECC+wj/EWc8RWg+HESbfap6xmSGq1tsYYwcBkWqQjMgCYjOLed6zCYI8m6yQ/b
+cZfQNURZId9oFj4bRtowOS+uAq/B8bps43haaAJ0zO8b98lsYuhz5NnPEp6DiZqS
+nB00OFfVUde+IMSLzu1+6FBdZv65HIN4wXNiTLhhi0BeupMfRq0PHQg92n6CTgTA
+RlGk/QFV
+=K0ys
+-----END PGP SIGNATURE-----

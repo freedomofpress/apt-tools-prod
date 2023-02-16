@@ -1,19 +1,19 @@
 Origin: Dangerzone
-Codename: jammy
-Date: Tue, 14 Feb 2023 22:16:51 UTC
-Valid-Until: Sat, 19 Aug 2023 22:16:51 UTC
+Codename: kinetic
+Date: Tue, 14 Feb 2023 22:16:58 UTC
+Valid-Until: Sat, 19 Aug 2023 22:16:58 UTC
 Architectures: amd64
 Components: main
-Description: Dangerzone packages (jammy)
+Description: Dangerzone packages (kinetic)
 MD5Sum:
  7b23427b6bb597b3a064cc8566a0e26e 958 main/binary-amd64/Packages
  281fd38fe6fd0b38f9dc08e93b8560d1 572 main/binary-amd64/Packages.gz
- bc8d1cdab96722ec75937324063544c1 96 main/binary-amd64/Release
+ c83dfdc547bcb4fe7a874162a1578751 98 main/binary-amd64/Release
 SHA1:
  4116ca88e6dce93ed608a2f98795340f9953f3bf 958 main/binary-amd64/Packages
  f120c81593a00b80ef785c81832fc92ce49ebcfd 572 main/binary-amd64/Packages.gz
- 0e797694e566a15eed5b90929e2ddb15d70b7a11 96 main/binary-amd64/Release
+ c77afbb10b5db00aff80f61bdf1aad71843f021f 98 main/binary-amd64/Release
 SHA256:
  82d0e13ff43f847ce1b479fb2d7c7b3429c75d25d85c74d348c68316eae292bf 958 main/binary-amd64/Packages
  7a8ab86d3e7f55d206601a78071aff31e63ec41239035c8e6a051b552e467832 572 main/binary-amd64/Packages.gz
- d6313f9874b80e3eb45332e892d599e9da3b4742319536d1f4945932059f965b 96 main/binary-amd64/Release
+ 53bf600aa2bcf3e1b363b6d803496508e81acd3fefdd4aa6c5e90621f2d22fe3 98 main/binary-amd64/Release
