@@ -1,19 +1,23 @@
 Origin: Dangerzone
 Codename: jammy
-Date: Tue, 14 Feb 2023 22:16:51 UTC
-Valid-Until: Sat, 19 Aug 2023 22:16:51 UTC
+Date: Thu, 06 Apr 2023 15:48:38 UTC
+Valid-Until: Mon, 09 Oct 2023 15:48:38 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (jammy)
 MD5Sum:
- 7b23427b6bb597b3a064cc8566a0e26e 958 main/binary-amd64/Packages
- 281fd38fe6fd0b38f9dc08e93b8560d1 572 main/binary-amd64/Packages.gz
+ 2ccd27e123e0e0eaa978cb339d137321 1081 main/binary-amd64/Packages
+ 1e7315d0d04b1b35544923a589d386d4 665 main/binary-amd64/Packages.gz
  bc8d1cdab96722ec75937324063544c1 96 main/binary-amd64/Release
 SHA1:
- 4116ca88e6dce93ed608a2f98795340f9953f3bf 958 main/binary-amd64/Packages
- f120c81593a00b80ef785c81832fc92ce49ebcfd 572 main/binary-amd64/Packages.gz
+ 82bed67b8a4f9dc4ef1473c05daa2e8b942ba961 1081 main/binary-amd64/Packages
+ 2147f16869e7f0f90ca0dabf81b74b7b7fa1498d 665 main/binary-amd64/Packages.gz
  0e797694e566a15eed5b90929e2ddb15d70b7a11 96 main/binary-amd64/Release
 SHA256:
- 82d0e13ff43f847ce1b479fb2d7c7b3429c75d25d85c74d348c68316eae292bf 958 main/binary-amd64/Packages
- 7a8ab86d3e7f55d206601a78071aff31e63ec41239035c8e6a051b552e467832 572 main/binary-amd64/Packages.gz
+ 753af587c152513647e62824715e468d325a848a7bde5c815f140ca5f4c5e9fb 1081 main/binary-amd64/Packages
+ 513adfbf124589e6f61dfc5441e4908b54e94302d24e6cb06946b8df0039bef1 665 main/binary-amd64/Packages.gz
  d6313f9874b80e3eb45332e892d599e9da3b4742319536d1f4945932059f965b 96 main/binary-amd64/Release
+SHA512:
+ d4bfe93fde7c00d566bd677600da4108ec6d27dac6ea1e9b384c247a3ea0eff66c74590c25b234e32453531235b1f1faa5c4b92817c5bc1a73eb79054097c527 1081 main/binary-amd64/Packages
+ bde6064e3e8f51b8ccff1e19f5a3a64a5efefc63c470a27d3f43e0b25236d61dbb65bb54774662500bfec65754d1e15bfed49816579e054827f814dd01ee5c6d 665 main/binary-amd64/Packages.gz
+ 86a6f3cdf126966dd75d2d63568b6ed83758ba2f79da2337d948c16ba26172576ee98a81386d977a08153d8cca95f5ea3fc29fa08a48f40bbcc19fbe6fe24f39 96 main/binary-amd64/Release
