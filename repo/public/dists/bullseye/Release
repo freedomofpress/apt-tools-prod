@@ -1,19 +1,23 @@
 Origin: Dangerzone
 Codename: bullseye
-Date: Tue, 14 Feb 2023 22:16:29 UTC
-Valid-Until: Sat, 19 Aug 2023 22:16:29 UTC
+Date: Thu, 06 Apr 2023 15:48:48 UTC
+Valid-Until: Mon, 09 Oct 2023 15:48:48 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (bullseye)
 MD5Sum:
- c428c69b832b0c9763089b06dac7e4dc 3608 main/binary-amd64/Packages
- a3e895675d2683545eeb458eae52ae41 1609 main/binary-amd64/Packages.gz
+ 4d7c8b551afe7e0d9c0e91da706a5ea0 4142 main/binary-amd64/Packages
+ 4733550dd410d9daa68271102bd0f570 1912 main/binary-amd64/Packages.gz
  1f0ae5c83457b295048724f64ff75d94 99 main/binary-amd64/Release
 SHA1:
- 14035d0367b869997058991238cedbe7cb5bc889 3608 main/binary-amd64/Packages
- f35ffeb410e34001d0900e5be746db1384599528 1609 main/binary-amd64/Packages.gz
+ b79e7225b89968278080b4cbadeea619d5a6b2c2 4142 main/binary-amd64/Packages
+ f4576e8b19b2fff90a6debdbb223c580058d69cc 1912 main/binary-amd64/Packages.gz
  3f09503d81ba98e1c97547aadc2cdcef286c6e9b 99 main/binary-amd64/Release
 SHA256:
- 557398feb92622fccf91de9fe3801bab4f645b65ca836e806c82d39dcd1c6704 3608 main/binary-amd64/Packages
- 182f2dfb87d4cec3df91845ee1cb96cc97a63600093308c748ffbdb7e04a36e2 1609 main/binary-amd64/Packages.gz
+ 037a617ce1e52b386f0bcfde0022576e3bf8e132f2ddcaa2cdb5312e8a31901a 4142 main/binary-amd64/Packages
+ 2cad2ecaf71d75168c21b7caeead7a58525e03778952af65998230a3dfd26dde 1912 main/binary-amd64/Packages.gz
  88290bd9d634910600296f4c2ff63cc0d2c476e49d292ecd4c519edf83b11b96 99 main/binary-amd64/Release
+SHA512:
+ ddc455b4516baf99a3a28909d104c7f1fe3365121f650eec7bc4bc052e95ca694208e174546c4d57b2335d83d0dccefa38c1cc509920da02fa03e19c86b8e7d4 4142 main/binary-amd64/Packages
+ fad5f2cd1ff7d656f880d9f16a5c9781b67ac32af136cb6d4543da9c88afad491e1d4270052d9d24e8d6f35ed1e6d5ead3c507abafcd9db1528241c9c43fad84 1912 main/binary-amd64/Packages.gz
+ 98a9d11ffe5dbb6c472e176a177e1ab6160acf95b9e83515268f9919e1bed265053ec72a2a6473f38d63ecd463f7bf82f4e975c6ca04a2618651e79880654d47 99 main/binary-amd64/Release

@@ -4,7 +4,7 @@ Components: main
 Architectures: amd64
 ValidFor: 6m
 Description: Dangerzone packages (bookworm)
-SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
+SignWith: DE28AB241FA48260FAC9B8BAA7C9B38522604281
 
 Origin: Dangerzone
 Codename: bullseye
@@ -12,7 +12,7 @@ Components: main
 Architectures: amd64
 ValidFor: 6m
 Description: Dangerzone packages (bullseye)
-SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
+SignWith: DE28AB241FA48260FAC9B8BAA7C9B38522604281
 
 Origin: Dangerzone
 Codename: focal
@@ -20,7 +20,7 @@ Components: main
 Architectures: amd64
 ValidFor: 6m
 Description: Dangerzone packages (focal)
-SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
+SignWith: DE28AB241FA48260FAC9B8BAA7C9B38522604281
 
 Origin: Dangerzone
 Codename: jammy
@@ -28,7 +28,7 @@ Components: main
 Architectures: amd64
 ValidFor: 6m
 Description: Dangerzone packages (jammy)
-SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
+SignWith: DE28AB241FA48260FAC9B8BAA7C9B38522604281
 
 Origin: Dangerzone
 Codename: kinetic
@@ -36,4 +36,4 @@ Components: main
 Architectures: amd64
 ValidFor: 6m
 Description: Dangerzone packages (kinetic)
-SignWith: 0B17E071F3C8F48C6F8284025BB0E7DC815CF1F4
+SignWith: DE28AB241FA48260FAC9B8BAA7C9B38522604281
