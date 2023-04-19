@@ -1,70 +1,18 @@
-Package: autocanary
-Version: 0.2.1-1
-Architecture: all
-Maintainer: Micah Lee <micah.lee@firstlook.org>
-Installed-Size: 114
-Depends: python3:any
-Priority: optional
-Section: python
-Filename: pool/main/a/autocanary/autocanary_0.2.1-1_all.deb
-Size: 26308
-SHA512: 0d73a54c7a4df510b8b59d9bd42df4c560f7286608e6e0201f49c0648812e2cb1285775bbe908f32d91ab5d029aa1d6c2f769915c7cf1a224fd852ee3c9b08b6
-SHA256: f29ea81953783687359ab2015bca03cb41b0441a8abdab83351a09ca1cb410ac
-SHA1: efb4e5b86466120f19cebb3bbb6e6f32a30526bd
-MD5sum: f0e38334b1429c9115c964c1e7dbfc69
-Description: UNKNOWN
-
 Package: dangerzone
-Version: 0.4.0-1
+Version: 0.4.1-1
 Architecture: all
-Maintainer: Micah Lee <micah.lee@theintercept.com>
-Installed-Size: 703213
+Maintainer: Freedom of the Press Foundation <info@freedom.press>
+Installed-Size: 698965
 Depends: python3:any (>= 3.6~), podman, python3, python3-pyside2.qtcore, python3-pyside2.qtgui, python3-pyside2.qtwidgets, python3-appdirs, python3-click, python3-xdg, python3-colorama
-Homepage: https://github.com/firstlookmedia/dangerzone
+Homepage: https://github.com/freedomofpress/dangerzone
 Priority: optional
 Section: python
-Filename: pool/main/d/dangerzone/dangerzone_0.4.0-1_all.deb
-Size: 713393668
-SHA512: d554fdd9f74ebaad2f97aeddab59fd7b420501d581a220fa5c84b36ea6f15b465e04a76fd78a754e3842773a0ad6056995def438c1025fe95c473f345764aff2
-SHA256: f5fa772f917cd925aa09803f6c6749ced4aeb7b48d558909da8db99f5775ca98
-SHA1: 77dbd379871975952f1bf19a5f09ccdd075da96d
-MD5sum: 4bab355af87f5270107fa219cb22e270
+Filename: pool/main/d/dangerzone/dangerzone_0.4.1-1_all.deb
+Size: 708908620
+SHA512: a083f18037c99ff0873deaf568f1636465fc3ce2483bb670c8676ba16d61ce3466bf69afefd03ff4a4716d3b79ce937419ff3e01c04e94673740224375837a49
+SHA256: adcfc38639dd2f621d1e6804b68d85e22b68415db15b6062bf7fc242d6457eff
+SHA1: 2aae42b4c08dabdd6312c11e9f03071156007c2b
+MD5sum: 09a22c300c48848f5b0b808e017ef1e3
 Description: Take potentially dangerous PDFs, office documents, or images
  Dangerzone is an open source desktop application that takes potentially dangerous PDFs, office documents, or images and converts them to safe PDFs. It uses container technology to convert the documents within a secure sandbox.
-
-Package: flock-agent
-Version: 0.1.5-1
-Architecture: all
-Maintainer: Micah Lee <micah.lee@firstlook.org>
-Installed-Size: 2004
-Depends: python3:any (>= 3.6~), python3, python3-pyqt5, python3-requests, python3-appdirs, python3-aiohttp, python3-packaging
-Homepage: https://github.com/firstlookmedia/flock-agent
-Priority: optional
-Section: python
-Filename: pool/main/f/flock-agent/flock-agent_0.1.5-1_all.deb
-Size: 1836872
-SHA512: 428282b9b6012383b94958c6f7bb49fbf47198a459ac7a046dc4b6092dca344d39df9ceb5167d97dbda34244e4a2cfab139dfc7cd947d38b014c6e7ce82a99c8
-SHA256: 6e854cc16705ba643c0e22e1e4cee9bb9ec1c19301e723b5e6a7d6e21dc18667
-SHA1: ad17be14b7178a64a68c0dcc052c73b80d648d20
-MD5sum: 0ed8ac78398b68012824d1c9e41f9767
-Description: Agent for Flock, the privacy-preserving fleet management sys
- Agent for Flock, the privacy-preserving fleet management system. The goal of Flock is to gain visibility into a fleet of workstation computers while protecting the privacy of their users. It achieves this by only collecting information needed to inform security decisions, and by not allowing the IT team to access arbitrary files or execute arbitrary code on the computers they are monitoring.
-
-Package: gpgsync
-Version: 0.3.6-1
-Architecture: all
-Maintainer: Micah Lee <micah.lee@theintercept.com>
-Installed-Size: 162
-Depends: python3:any, python3-pyside2.qtcore, python3-pyside2.qtwidgets, python3-pyside2.qtgui, python3-requests, python3-socks, python3-packaging, python3-dateutil, gnupg2
-Homepage: https://github.com/firstlook/gpgsync
-Priority: optional
-Section: python
-Filename: pool/main/g/gpgsync/gpgsync_0.3.6-1_all.deb
-Size: 29716
-SHA512: b9153dfd6bffe933b236f17d0eead36b659d44c55e1e49f46535b0b977f1e68e12d9d16c11ae37e69d9e4a6c745e951837f44ed129467bb8ff2883d08e02214a
-SHA256: cd456365760d27daad4c6fc42ff29ba64f91a8f14311e4d9c79ba11c8c27b5f1
-SHA1: 0cea6dda3865f112d775146b7b26d23763a0fa37
-MD5sum: 8094ac176b75c0cb038a1da8950ffcad
-Description: GPG Sync lets users have up-to-date public keys for all othe
- GPG Sync lets users have up-to-date public keys for all other members of their organization. If you're part of an organization that uses GPG internally you might notice that it doesn't scale well. New people join and create new keys and existing people revoke their old keys and transition to new ones. It quickly becomes unwieldy to ensure that everyone has a copy of everyone else's current key, and that old revoked keys get refreshed to prevent users from accidentally using them.
 
