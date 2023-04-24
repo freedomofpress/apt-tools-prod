@@ -3,40 +3,40 @@ Hash: SHA256
 
 Origin: Dangerzone
 Codename: focal
-Date: Thu, 06 Apr 2023 15:48:29 UTC
-Valid-Until: Mon, 09 Oct 2023 15:48:29 UTC
+Date: Wed, 19 Apr 2023 14:17:14 UTC
+Valid-Until: Sun, 22 Oct 2023 14:17:14 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (focal)
 MD5Sum:
- 2ccd27e123e0e0eaa978cb339d137321 1081 main/binary-amd64/Packages
- 1e7315d0d04b1b35544923a589d386d4 665 main/binary-amd64/Packages.gz
+ 0934d5e83f4af403ba25b082b4fa036f 1095 main/binary-amd64/Packages
+ d681aea3e69ac4c8a2388f07398cee95 669 main/binary-amd64/Packages.gz
  0aff671f0e00ef5fe6d7eed2d5b1d00c 96 main/binary-amd64/Release
 SHA1:
- 82bed67b8a4f9dc4ef1473c05daa2e8b942ba961 1081 main/binary-amd64/Packages
- 2147f16869e7f0f90ca0dabf81b74b7b7fa1498d 665 main/binary-amd64/Packages.gz
+ 2e200c75edefeab3c3fdea447f87dcf8c836df8e 1095 main/binary-amd64/Packages
+ 34189c2dabe1157bc3259704878b2006a657744b 669 main/binary-amd64/Packages.gz
  5a85262f40af8c2fe68525ed7cb62791029230ed 96 main/binary-amd64/Release
 SHA256:
- 753af587c152513647e62824715e468d325a848a7bde5c815f140ca5f4c5e9fb 1081 main/binary-amd64/Packages
- 513adfbf124589e6f61dfc5441e4908b54e94302d24e6cb06946b8df0039bef1 665 main/binary-amd64/Packages.gz
+ cef6f02f5836f23775619e90ac469551657884df66a3c8e92207649ead520f2f 1095 main/binary-amd64/Packages
+ 1591a15008c1edefc0ff81ae3edb8a3015734f2c10f8244f8f662e057508106d 669 main/binary-amd64/Packages.gz
  aff1619021d39567260d7d8c2fe24a177eb05fc7c5e0ebd7c61f06d4e6a37f52 96 main/binary-amd64/Release
 SHA512:
- d4bfe93fde7c00d566bd677600da4108ec6d27dac6ea1e9b384c247a3ea0eff66c74590c25b234e32453531235b1f1faa5c4b92817c5bc1a73eb79054097c527 1081 main/binary-amd64/Packages
- bde6064e3e8f51b8ccff1e19f5a3a64a5efefc63c470a27d3f43e0b25236d61dbb65bb54774662500bfec65754d1e15bfed49816579e054827f814dd01ee5c6d 665 main/binary-amd64/Packages.gz
+ f3d4eaeecae706b0469e7a9ad20b62c150cb3cce701fedea27562f37463e60b976b18d6c06b3351fc008c696a752b34330ca9b9070d65c0825bcf8c3656f5db1 1095 main/binary-amd64/Packages
+ 49fd44e4da8240b8e1d615fd407914ac3751623361a5d84de53efad82562e9382bb67436d68e01b6834480bd199172e3ab36f20bce541b714ba9ff297611bc8c 669 main/binary-amd64/Packages.gz
  3ce9412345afd455d517e155f27b53de15f23f9785cbe7e21cc4ac77059b2d8a5e2ef2569231fe72368d368f8c84641887353cc585a97bbb19e4de716be3566d 96 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEBMq+td12us8r1D0v86zGD2LqUcsFAmQu6c4ACgkQ86zGD2Lq
-UcvyDBAAvrauCqwFO1eVFkJlKeEuevuZTTohcfqJKnX/OUhR/70dk6lRsuOl58ws
-/Ocq4ZMoAYdwMKbeg0nF9Is5yB6h7uILnLdvtSpFy9k6manm9Lw25GGmY4S/2t1a
-mX4IN5eXk55vgsLK3KmgwcytyBtVAwd6GLIlsWStNk5RZL2KiYRppVuiqaoy3lLT
-KTWWrjDv90esPgmfN9MFv9s/Xx/ht2qLeOQLe3mAiyXYuNcJOzp32wbchy/ph5BR
-8dlLeqr94yJ/+fQgFW/U+NGU7ZY47slAOdkViiyB9rUhb3cM73w5BT/cLreNhdRI
-mT6IgHkHmkt43aEKBLlpG7bHuC3/QCqxlkBo6b3LpYH+8rl1JxmK8+HoT949u7/4
-xxLERwjKOUlEpF7qYzHWATZMW6h+iYELzAJZTTHiZzw2x8Q9wLu48y7yB7UYJvr+
-UT0sTo6gUveGEXIqe7KmsqwhTpVBLE9zCF0IxjFz7b1d1oSWph1o8J3FuKPAGe0g
-UzDdNadUoXckRV9gfNqy/neE732TKm8Kh7Hz9KWn933hHEuRTxSBC1/qKOGFLCTT
-SwlMeSXpHpFUxo/bHfWniC+NpG7EfhSmf1+Rv57OlwotX1/zYDGNpuDiyOpiy433
-gSwNyKUlI6jTx078fL2+9eX15P+ZC4HKGpvqDoLS1NfU44g0ODI=
-=abV2
+iQIzBAEBCAAdFiEEBMq+td12us8r1D0v86zGD2LqUcsFAmQ/9+sACgkQ86zGD2Lq
+Uct5Cg/+PjfxqEZC5kZdlCXt36Yqw7yRI/qKFNyT2r7g5G2Ob9t7k9p9u1UQmTCw
+9Oo1SInAetY5GytQ7tlqiqxV4u01DxJe/YX1uXiZbHyYg90UJUSYPFTEpm2/tHbj
+hLjP66e46L1jbqANy5rgIAcCcRgviD4R6yhYg+iu7HSvHwVZrDQL4xeOUjNnizt9
+6pVQ9hX0eHaJUth0Z3+vjNluXM2LwTroP6FUMd+M1X5XU0UGQEWZMR1PSYIsMgaR
+t5zTFTgZYAkHDF24vQG7DPCiBfXDffkZhYH8Ky0jE91Eje1xrusERT1dvlrX1Dd8
+wwTlIL9zhp/iOWdY3nsIUWlli187omVoHmaWzFevx7nS63WxVG7C3HKnR1wMgbnf
+7F2Dqt2EfmDaNOOXxerNCdZhdI8Dx0Jy3f8jSOUoEEre/k6kfSSSImJ2SGF+0l+5
+DN9v3Ygs8abXPTMlrdLduYqYEry+NAZz2HWkwA+3dKdLqshGDBLOECmwjc8FVNgI
+K2aewEdM9Y7OWtAYS42plmbk/VfMCqaanMGswiGsZxRJw1itgcvNfdzqA1ST9tnb
+LWhvQjSw03OkMJ/xHjDF6E5UBBfAo74wRO25SoS3WQpXzl6owfKniwWgOl4/7B3X
+k8kBujvvPRmJyEvtAYmBps7K+pW2hupiY87qsYU78dlmP8yoCY4=
+=pnCg
 -----END PGP SIGNATURE-----
