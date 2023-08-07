@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Dangerzone
+Codename: lunar
+Date: Mon, 07 Aug 2023 14:07:22 UTC
+Valid-Until: Fri, 09 Feb 2024 14:07:22 UTC
+Architectures: amd64
+Components: main
+Description: Dangerzone packages (lunar)
+MD5Sum:
+ d843b51aed1c8d7bddf22f12493c9b03 1173 main/binary-amd64/Packages
+ 0625156a75d4f989288e30270c899d7c 693 main/binary-amd64/Packages.gz
+ 2cc796d37cb1f1880267262c92b91333 96 main/binary-amd64/Release
+SHA1:
+ 6e074f766c94020f329841ee4d3132cdab69664e 1173 main/binary-amd64/Packages
+ e866fcd6b461aa6d0329a850feab960e56d04bed 693 main/binary-amd64/Packages.gz
+ 81c0d542dac1f5650f9b03fbd208f8667b5c7c43 96 main/binary-amd64/Release
+SHA256:
+ 79e3437ddf4ff0bc7bb957284a4521ea5cb2b757dbbf7826df5c228d2b207b93 1173 main/binary-amd64/Packages
+ 0e175da8aa54d51517a7db82ee6eb3842b85e0ee29c484f023652e3e3936bc87 693 main/binary-amd64/Packages.gz
+ 1aef30602a8a9f515d8d8a7025fdaed44871d0be9a4a48befa9cd289079c7449 96 main/binary-amd64/Release
+SHA512:
+ e17404feebb6d5f1e1ae390c28f742c0cccf0a840ee3b4ac77d0ca84a574eec8d2c427930c8820f18638288e4ec4c1495e12d8f3d3dc7019f8aa249cacfcfe34 1173 main/binary-amd64/Packages
+ c88da1e99fdd2aa2653c1cc288100768f764396471b1ac2851065e510eeb32796d5cd6d707de5135d03d1a2fc4eeda32da186316844ab11fdc47caa0e4c9642e 693 main/binary-amd64/Packages.gz
+ 3689d4123341ac882d32e70c6ff3cfd58590ebb9250e57cdabe42563a4c408202923ead52d423bd9bed06f075f186a5cee3cdd7cf5c6a29e791d7cf6340ae5e1 96 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEBMq+td12us8r1D0v86zGD2LqUcsFAmTQ+psACgkQ86zGD2Lq
+UcvFRA//Rppi3e/cAyQDPKF9y3GOJEhjYeJE+zcKuC0g3/uRb0O+KmOo89yHxMSL
+MoLlcTJwS2/PlPJyncFlhvYX8v7K4G8vCVPnL7oMViABpyzf+6VYjSlBnVECfKjc
+9f954hCNiejCMAGTJ+IKVce0cDNRRsBhioWtPyNsR3VoNohRAb/NMlR5hQQ0pcoL
+7Ycv8SXZdJyUDChsBDpdw12cIbvn4gZNcfbj4tmXEKE1GeFSoA3sZDqLh/HDAv73
+cLKzWWBTivv8FE20mlJdQzO4zVLh1VPMvxj53j0ofjuamk9ucDfxMLI9M17eB0VD
+cfNyXC/7W09eIolinvY4kO+9OwXp2WbSmWYTFIBNnLBBZbPUcba91LDKWJdO+kwA
+rgUxN61Zuda9s9pTooO+mDUn0VcZt2ESUBRHAXUul9DajNM9pfv8rCUxXv3ob8Ut
+KyRxfC+1HbBVAO8e83hWevDSGgOIHrRqHBT78rzBZPJRihjPCoC+3Zp1wwGsTG4v
+pjYm2nSa2c9P5lmsxUgGNxjXJyMcQpO2by1XYwy/AqmDAFgMIQkJgAQh1Awk1yd3
+wuA20QZKFjIDab+mUL8rzlu3Xrg+inIhaiZeuAAikFa24TTrz1nh5Armo+bW632a
+piwrRTUgtzc/GGFv3ojkBy7GwkZ3N4B44W2hmRXfHzEzJHfGTAo=
+=WYeN
+-----END PGP SIGNATURE-----
