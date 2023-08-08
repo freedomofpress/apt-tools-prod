@@ -31,9 +31,17 @@ Description: Dangerzone packages (jammy)
 SignWith: DE28AB241FA48260FAC9B8BAA7C9B38522604281
 
 Origin: Dangerzone
-Codename: kinetic
+Codename: lunar
 Components: main
 Architectures: amd64
 ValidFor: 6m
-Description: Dangerzone packages (kinetic)
+Description: Dangerzone packages (lunar)
+SignWith: DE28AB241FA48260FAC9B8BAA7C9B38522604281
+
+Origin: Dangerzone
+Codename: trixie
+Components: main
+Architectures: amd64
+ValidFor: 6m
+Description: Dangerzone packages (trixie)
 SignWith: DE28AB241FA48260FAC9B8BAA7C9B38522604281
