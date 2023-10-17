@@ -1,23 +1,23 @@
 Origin: Dangerzone
 Codename: focal
-Date: Mon, 07 Aug 2023 14:06:46 UTC
-Valid-Until: Fri, 09 Feb 2024 14:06:46 UTC
+Date: Tue, 17 Oct 2023 19:03:01 UTC
+Valid-Until: Sat, 20 Apr 2024 19:03:01 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (focal)
 MD5Sum:
- d843b51aed1c8d7bddf22f12493c9b03 1173 main/binary-amd64/Packages
- 0625156a75d4f989288e30270c899d7c 693 main/binary-amd64/Packages.gz
+ d5dcd772ccaeb912c90363c3c5aa0180 1219 main/binary-amd64/Packages
+ 4f52067b6ff53461f138c829b8eabca4 723 main/binary-amd64/Packages.gz
  0aff671f0e00ef5fe6d7eed2d5b1d00c 96 main/binary-amd64/Release
 SHA1:
- 6e074f766c94020f329841ee4d3132cdab69664e 1173 main/binary-amd64/Packages
- e866fcd6b461aa6d0329a850feab960e56d04bed 693 main/binary-amd64/Packages.gz
+ d214906df6431c9eab41d699647628b275b4c871 1219 main/binary-amd64/Packages
+ c622d0493f90ecb4813e267a8385ba21bdf97eb3 723 main/binary-amd64/Packages.gz
  5a85262f40af8c2fe68525ed7cb62791029230ed 96 main/binary-amd64/Release
 SHA256:
- 79e3437ddf4ff0bc7bb957284a4521ea5cb2b757dbbf7826df5c228d2b207b93 1173 main/binary-amd64/Packages
- 0e175da8aa54d51517a7db82ee6eb3842b85e0ee29c484f023652e3e3936bc87 693 main/binary-amd64/Packages.gz
+ b4a6acfee39843eafefa5201942e8b6816653541293b44a7cfa99f708bd46ba1 1219 main/binary-amd64/Packages
+ bb1342b613a74271b19637d0fedd80884d24df560e347bfeac37b69f2c95bf6a 723 main/binary-amd64/Packages.gz
  aff1619021d39567260d7d8c2fe24a177eb05fc7c5e0ebd7c61f06d4e6a37f52 96 main/binary-amd64/Release
 SHA512:
- e17404feebb6d5f1e1ae390c28f742c0cccf0a840ee3b4ac77d0ca84a574eec8d2c427930c8820f18638288e4ec4c1495e12d8f3d3dc7019f8aa249cacfcfe34 1173 main/binary-amd64/Packages
- c88da1e99fdd2aa2653c1cc288100768f764396471b1ac2851065e510eeb32796d5cd6d707de5135d03d1a2fc4eeda32da186316844ab11fdc47caa0e4c9642e 693 main/binary-amd64/Packages.gz
+ 8b8dacb46deacce61cdf01f2036e297d9cd840b388d16cf7f2d7531b5a6f1c01549bd18440a0cdefc6c0378bc535ecf617e9104c1d72dea77dc685094a4f2fa8 1219 main/binary-amd64/Packages
+ eac9f811dcdfcade7cb74b5faa3b3df912ddd1339b62de98bbd2b207261f9bd2bcd9992c4c83afff0d5a044532c77c9b6fa8e37092ccec96fdd18b0c1c83c5e2 723 main/binary-amd64/Packages.gz
  3ce9412345afd455d517e155f27b53de15f23f9785cbe7e21cc4ac77059b2d8a5e2ef2569231fe72368d368f8c84641887353cc585a97bbb19e4de716be3566d 96 main/binary-amd64/Release
