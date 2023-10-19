@@ -39,6 +39,14 @@ Description: Dangerzone packages (lunar)
 SignWith: DE28AB241FA48260FAC9B8BAA7C9B38522604281
 
 Origin: Dangerzone
+Codename: mantic
+Components: main
+Architectures: amd64
+ValidFor: 6m
+Description: Dangerzone packages (mantic)
+SignWith: DE28AB241FA48260FAC9B8BAA7C9B38522604281
+
+Origin: Dangerzone
 Codename: trixie
 Components: main
 Architectures: amd64

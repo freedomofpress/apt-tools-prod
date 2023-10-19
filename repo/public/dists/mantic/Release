@@ -1,23 +1,23 @@
 Origin: Dangerzone
-Codename: trixie
-Date: Tue, 17 Oct 2023 19:03:59 UTC
-Valid-Until: Sat, 20 Apr 2024 19:03:59 UTC
+Codename: mantic
+Date: Tue, 17 Oct 2023 19:03:39 UTC
+Valid-Until: Sat, 20 Apr 2024 19:03:39 UTC
 Architectures: amd64
 Components: main
-Description: Dangerzone packages (trixie)
+Description: Dangerzone packages (mantic)
 MD5Sum:
  d5dcd772ccaeb912c90363c3c5aa0180 1219 main/binary-amd64/Packages
  4f52067b6ff53461f138c829b8eabca4 723 main/binary-amd64/Packages.gz
- 9a92ff0ff28fe522aaf189b41b9c84fa 97 main/binary-amd64/Release
+ 43262438e7033ea332eb3010f2fde99d 97 main/binary-amd64/Release
 SHA1:
  d214906df6431c9eab41d699647628b275b4c871 1219 main/binary-amd64/Packages
  c622d0493f90ecb4813e267a8385ba21bdf97eb3 723 main/binary-amd64/Packages.gz
- e8ca019dbd31c60e35bc5125eb2f8e1eb7da66aa 97 main/binary-amd64/Release
+ 7a4c58695595514d784ce06840b724c2bbeecc2a 97 main/binary-amd64/Release
 SHA256:
  b4a6acfee39843eafefa5201942e8b6816653541293b44a7cfa99f708bd46ba1 1219 main/binary-amd64/Packages
  bb1342b613a74271b19637d0fedd80884d24df560e347bfeac37b69f2c95bf6a 723 main/binary-amd64/Packages.gz
- a709d167f1a201a81143a15f7e16f776918651476bcea109edfad1a48d0cedba 97 main/binary-amd64/Release
+ d7e448ad6892bbc9c67253ba420c9073f7d2e6325963585909ea3d28fcf021f5 97 main/binary-amd64/Release
 SHA512:
  8b8dacb46deacce61cdf01f2036e297d9cd840b388d16cf7f2d7531b5a6f1c01549bd18440a0cdefc6c0378bc535ecf617e9104c1d72dea77dc685094a4f2fa8 1219 main/binary-amd64/Packages
  eac9f811dcdfcade7cb74b5faa3b3df912ddd1339b62de98bbd2b207261f9bd2bcd9992c4c83afff0d5a044532c77c9b6fa8e37092ccec96fdd18b0c1c83c5e2 723 main/binary-amd64/Packages.gz
- 03d36c78e6d13efb8597f622492942ab9f1b85d5792a80e395e7db415adbfdeffffa66d14cf61c200a412f9b8d3abd79853a2b5f599934b2a615e028657e86b9 97 main/binary-amd64/Release
+ ea77182ab7a59686bc8d92f9cb84dcd4e2129f9ee845f87d27fd7fb2e1cb31e161dfa252158fd0c086455fd767c85f9b0e6e11b6bc5880aeb05b2e233b93bb6b 97 main/binary-amd64/Release
