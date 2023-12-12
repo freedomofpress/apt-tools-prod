@@ -9,6 +9,7 @@ found in each.
 import argparse
 import logging
 import os
+import shutil
 import subprocess
 import sys
 
@@ -19,6 +20,11 @@ REPO_ROOT = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir))
 REPROPRO_DIR_DEFAULT = os.path.join(REPO_ROOT, "repo")
 REPREPRO_DIR = os.environ.get("REPREPRO_BASE_DIR", REPROPRO_DIR_DEFAULT)
 REPREPRO_PUBLIC_DIR = os.path.join(REPREPRO_DIR, "public")
+REPREPRO_CLEANUP_DIRS = [
+    os.path.join(REPREPRO_DIR, "db"),
+    os.path.join(REPREPRO_PUBLIC_DIR, "pool"),
+    os.path.join(REPREPRO_PUBLIC_DIR, "dists"),
+]
 
 REPO_DIRS = [
     "dangerzone",
@@ -92,6 +98,15 @@ def validate_repo():
     logger.info("Successfully validated repo")
 
 
+def cleanup_repo():
+    """
+    Clean up previously created repo data
+    """
+    logger.info("Cleaning up repo")
+    for d in REPREPRO_CLEANUP_DIRS:
+        shutil.rmtree(d, ignore_errors=True)
+
+
 def get_release_files():
     """
     Find all Release files, to facilitate generating a detached
@@ -131,6 +146,13 @@ def parse_args():
     parser.add_argument(
         "--distros", required=False, nargs="+",
         help="Operate on a set of specific distros (default: all)"
+    )
+    parser.add_argument(
+        "--dirty", default=False, action="store_true",
+        help=(
+            "DANGEROUS! Do not clean the APT db before publishing packages."
+            " See issue #11 on why this is important"
+        )
     )
     parser.add_argument(
         "--TEST-no-validate", default=False, action="store_true",
@@ -176,6 +198,16 @@ def main():
         logger.warning("Skipping repo validation")
     else:
         validate_repo()
+
+    if args.distros and not args.dirty:
+        logger.error("You must specify --dirty, if you want to operate only"
+                     " on a specific set of distros")
+        return 1
+
+    if args.dirty:
+        logger.warning("Skipping repo cleanup")
+    else:
+        cleanup_repo()
 
     for repo in REPO_DIRS:
         publish_packages(repo, distros=args.distros)
