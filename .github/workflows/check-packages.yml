@@ -1,0 +1,17 @@
+---
+name: check-packages
+
+on: [push, pull_request]
+
+jobs:
+  check-sigs:
+    runs-on: ubuntu-latest
+    container: debian:bullseye
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Debian packaging dependencies
+        run: apt-get update && apt-get install -y gpg
+      - name: Verify signatures on all Release files
+        run: |
+          gpg --import repo/public/fpf-apt-tools-archive-keyring.gpg
+          for i in repo/public/dists/*/Release; do gpg --verify "${i}.gpg" "$i"; done
