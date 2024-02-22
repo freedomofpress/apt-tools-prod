@@ -3,40 +3,40 @@ Hash: SHA256
 
 Origin: Dangerzone
 Codename: trixie
-Date: Mon, 11 Dec 2023 11:27:13 UTC
-Valid-Until: Fri, 14 Jun 2024 11:27:13 UTC
+Date: Thu, 22 Feb 2024 10:14:57 UTC
+Valid-Until: Mon, 26 Aug 2024 10:14:57 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (trixie)
 MD5Sum:
- c6ad3a11b5f8a82ae05e191a9cb91d8b 1219 main/binary-amd64/Packages
- 2e0be8f476d2487119c7b87de762dc9f 724 main/binary-amd64/Packages.gz
+ 885fb06857bfd87326c53ea421bd206f 1219 main/binary-amd64/Packages
+ 97eb089cc17ca942d88c44e2ce28b0c3 726 main/binary-amd64/Packages.gz
  9a92ff0ff28fe522aaf189b41b9c84fa 97 main/binary-amd64/Release
 SHA1:
- 8be2c14a95a52018ff1afdde2460f681119256b6 1219 main/binary-amd64/Packages
- 7cd0630cf1e0cd505be00f0329486431835f1c56 724 main/binary-amd64/Packages.gz
+ 82af67bd9fa47419edeff6ed018ae2ee5790f2f4 1219 main/binary-amd64/Packages
+ fc850ab716df032358989929a41743e44debc27c 726 main/binary-amd64/Packages.gz
  e8ca019dbd31c60e35bc5125eb2f8e1eb7da66aa 97 main/binary-amd64/Release
 SHA256:
- d2965ad9219fc081dc266c0820d2e5f5dcbfc4d5a8ce38bab4d8c72f490b8a6a 1219 main/binary-amd64/Packages
- d0fe6299dc3730a7dd2e335791fb4b2f951953007148ff9ff50b08a0b1a0e4b9 724 main/binary-amd64/Packages.gz
+ 2b390550c9a61bd4de44eb448fc17dfcc846db1d84493c229b2a6979ed897699 1219 main/binary-amd64/Packages
+ b6979bcde8890cddbcf2b5030718525ea0bced68ad5e3667b73ae8f265b561f1 726 main/binary-amd64/Packages.gz
  a709d167f1a201a81143a15f7e16f776918651476bcea109edfad1a48d0cedba 97 main/binary-amd64/Release
 SHA512:
- c4bf8a4be6630ab9c76a505e8c941f61ce2277f6acfc0df1c2dca45e28c0f03ab5bca3ba12ea96e9d311ed7dfdec03851fb3181ef23fca0b9098cd3e4a94c6b0 1219 main/binary-amd64/Packages
- 62031727b94e3909634c9bc214fb8f1c8dc4d779a6b325663fd16f093c4d04f4fe8cb5d1394cf70d0a9a71d4f8ce8a6413ad7c8c0700b13173fc01f77664a801 724 main/binary-amd64/Packages.gz
+ 8018fe892a8d1472ccf3d96075d6f321f777224b9464eb5d2f347e22888dfd0f7a35de9e33641363c37150d8a1cc51f371b859463e17d539f01a2f8a09f0ebe6 1219 main/binary-amd64/Packages
+ 8bfa3019376d6dfbe4fb39c8a6f1a7f1e01c72b8b5ec49d4b31e4f0977849070dc2bb01f17e4e523708c317ef5401b1d2415addb9a31cc4921c2cc9b94b6f765 726 main/binary-amd64/Packages.gz
  03d36c78e6d13efb8597f622492942ab9f1b85d5792a80e395e7db415adbfdeffffa66d14cf61c200a412f9b8d3abd79853a2b5f599934b2a615e028657e86b9 97 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEBMq+td12us8r1D0v86zGD2LqUcsFAmV28hIACgkQ86zGD2Lq
-Ucsp0Q//fV4mxtOkPagPbQnuKnsTKWE/blE0mjR+M9V3wFIIJFwaqGQlSLxu5ecl
-8poyb+ECkpuLuSZg3L3tsWh1QVswlu21JH8zzjWoDXQL2QzQ7huGFBMNvD2ZJAUk
-OKE8eiCplkIBpz3wmtReHYBe2jUNBaHr0dTZ9QVEY3r51j5GqkG5UEuH+dAAY7Sa
-QtpWWYjxAM+/0wSdT/RUXTeJg8GH0JjBRVtq5T2oyKapIjz+V2SLePeaiyX0R4aF
-qVCBUB5KqG9JBt8Fdb6RpW3K9Y7GtudVWZIWr0kYT0b6/U9LY6zg4UoKm3vavkHl
-aFINEKFSFCSEUHt/JCXJpQpKumnRNulF8tv2i9NgQeDhpGElq5wFpykKaKpbRmbi
-NTbiXHuUuXueR8TnOGUUumYm12T3mIDejdzAhD/SMko76J7vuVRyY2CihkxtAN0q
-+OLZuFdR6HRKbOsVcMbcLopp4HxvIjlghUlM5pvkV5GSuzKvTDleA4oQjcmU40Jg
-hJWP8now6ArzcCPM3a403nq+HbaitrQgASDdUTTfAsV+i3BJbV+J1znAE2Vaa3bS
-i+XmNzldjAHaf0BKs7X6Lp/cQrHBMGCeOYYVEFiBetX0HcIt9d1WQjjBLBfjBpgC
-zvgxaz7VTWRDRmzqWL9WKiJIJq79M/O9Jj6fSx4dNxTsq4ZGYS4=
-=AvAH
+iQIzBAEBCAAdFiEEBMq+td12us8r1D0v86zGD2LqUcsFAmXXHqIACgkQ86zGD2Lq
+Ucu0ZA//QTwoFQTzNO2nBshvYhb4t8YxbWoZ8o9JGDlPK3Un6xie/yswu1XI60iM
+GHhiz0ey12nePdlwN4M/8+KPPQ3ikeNuvySxunaKD+dXRvx16zFL0liJhgzktj8e
+5v29RdWltO3H90K+2kQjtubqfhCEkKnt38rBWlfqekm5rk9Ez2xeoeGf/6sZTEt6
+cmcFFjj7/VsjRlcSx9W/0+7uMw8Gp10ukiYH0d9V0I4KHgzDJDdD4a6KBfnYrK00
+lnN894XZuw8dWTEjLfjjql1lQ4DxngCGsLv6BgTGbY9Rlca+H5QWpX0LNp1PkY+/
+4fdQodoiEokgsJZO1KoHTRXPwXYe1wHtjf5KS341UAx0NiPKvxGfpkIVXJOiCJax
+/QEdFBkzBp5nHIZKPUK5B5Ow+cIB+3Z8TUB8xHzofcSeIOXhqNCZOFOqvzeSQ+/4
+F7PHEnrRqvyMKpxohh1/4UMkqZnGNJpcybmwMCWlr3ovgKN1iZrfcb5W7VcpS5tr
+eR68dgrZax1AGtrQkTliVyrQWX5DUyp26lLajvNH+AjKvADMVRe0w3GMa6VL3IkO
+2W9squLCgFrz3bf/m9JRYV4vuThUmxnn/VAnRUtxhpfNfV7mC4QV5G0J5/I7gzL6
+fcIrwy7i1rOJOpqeZr+4uzeAFulVcfINDIS2NQahpZTDvy31dTA=
+=jj7l
 -----END PGP SIGNATURE-----

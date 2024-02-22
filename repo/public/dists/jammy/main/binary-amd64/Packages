@@ -38,20 +38,20 @@ Description: OCI container runtime monitor
  daemon a container can have.
 
 Package: dangerzone
-Version: 0.5.1-1
+Version: 0.6.0-1
 Architecture: all
 Maintainer: Freedom of the Press Foundation <info@freedom.press>
-Installed-Size: 632776
+Installed-Size: 616145
 Depends: python3:any (>= 3.6~), podman, python3, python3-pyside2.qtcore, python3-pyside2.qtgui, python3-pyside2.qtwidgets, python3-pyside2.qtsvg, python3-appdirs, python3-click, python3-xdg, python3-colorama, python3-requests, python3-markdown, python3-packaging
 Homepage: https://github.com/freedomofpress/dangerzone
 Priority: optional
 Section: python
-Filename: pool/main/d/dangerzone/dangerzone_0.5.1-1_all.deb
-Size: 642863880
-SHA512: 61cb8087caab4ee702183b8ea6410ce2b2319ce643fbbc25b7d674aa931019884b458fd07c22b71b711d77d17a35789add6e3ff5a6b9efd35640f75235c3d02f
-SHA256: 9e26708b1846328f670ae9aec1d35d1a9322cdce3c29cf2551d331d0cda31209
-SHA1: 70b6f760cef859b995dc8b4f82414f69727e485e
-MD5sum: 0cf558dc17366b062fb321f67e3f91d6
+Filename: pool/main/d/dangerzone/dangerzone_0.6.0-1_all.deb
+Size: 626684772
+SHA512: 8f1f2e3eec1aa4ca604b2c94fa9a2ab68d7efa1f8840a6590f7916d6d5c9e87e6737fcbab77c12c74f4b16c8047120b235380e82c690115f6c8339710fb320a4
+SHA256: f29a330cb6a100ab16e1969f46141c8c9b1201ece7d1c5c7f6f4a033d7c6457f
+SHA1: 67526981bcc65f1e7bd22f373e3a58c3b8bce651
+MD5sum: 42295e583478c1d3ab65fbf9865a580d
 Description: Take potentially dangerous PDFs, office documents, or images
  Dangerzone is an open source desktop application that takes potentially dangerous PDFs, office documents, or images and converts them to safe PDFs. It uses disposable VMs on Qubes OS, or container technology in other OSes, to convert the documents within a secure sandbox.
 
