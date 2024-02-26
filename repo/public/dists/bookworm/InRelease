@@ -3,40 +3,40 @@ Hash: SHA256
 
 Origin: Dangerzone
 Codename: bookworm
-Date: Mon, 11 Dec 2023 11:27:04 UTC
-Valid-Until: Fri, 14 Jun 2024 11:27:04 UTC
+Date: Mon, 26 Feb 2024 19:16:40 UTC
+Valid-Until: Fri, 30 Aug 2024 19:16:40 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (bookworm)
 MD5Sum:
- c6ad3a11b5f8a82ae05e191a9cb91d8b 1219 main/binary-amd64/Packages
- 2e0be8f476d2487119c7b87de762dc9f 724 main/binary-amd64/Packages.gz
+ 885fb06857bfd87326c53ea421bd206f 1219 main/binary-amd64/Packages
+ 97eb089cc17ca942d88c44e2ce28b0c3 726 main/binary-amd64/Packages.gz
  d63023616f31bc57cc9ff9aae3b3da69 99 main/binary-amd64/Release
 SHA1:
- 8be2c14a95a52018ff1afdde2460f681119256b6 1219 main/binary-amd64/Packages
- 7cd0630cf1e0cd505be00f0329486431835f1c56 724 main/binary-amd64/Packages.gz
+ 82af67bd9fa47419edeff6ed018ae2ee5790f2f4 1219 main/binary-amd64/Packages
+ fc850ab716df032358989929a41743e44debc27c 726 main/binary-amd64/Packages.gz
  9558cc36c06fc891d28755b43f8317647337dd87 99 main/binary-amd64/Release
 SHA256:
- d2965ad9219fc081dc266c0820d2e5f5dcbfc4d5a8ce38bab4d8c72f490b8a6a 1219 main/binary-amd64/Packages
- d0fe6299dc3730a7dd2e335791fb4b2f951953007148ff9ff50b08a0b1a0e4b9 724 main/binary-amd64/Packages.gz
+ 2b390550c9a61bd4de44eb448fc17dfcc846db1d84493c229b2a6979ed897699 1219 main/binary-amd64/Packages
+ b6979bcde8890cddbcf2b5030718525ea0bced68ad5e3667b73ae8f265b561f1 726 main/binary-amd64/Packages.gz
  26f9bfc7b0cc94efe2e853b6fddf80bc3948c4de5811457854da2f43ef168cdf 99 main/binary-amd64/Release
 SHA512:
- c4bf8a4be6630ab9c76a505e8c941f61ce2277f6acfc0df1c2dca45e28c0f03ab5bca3ba12ea96e9d311ed7dfdec03851fb3181ef23fca0b9098cd3e4a94c6b0 1219 main/binary-amd64/Packages
- 62031727b94e3909634c9bc214fb8f1c8dc4d779a6b325663fd16f093c4d04f4fe8cb5d1394cf70d0a9a71d4f8ce8a6413ad7c8c0700b13173fc01f77664a801 724 main/binary-amd64/Packages.gz
+ 8018fe892a8d1472ccf3d96075d6f321f777224b9464eb5d2f347e22888dfd0f7a35de9e33641363c37150d8a1cc51f371b859463e17d539f01a2f8a09f0ebe6 1219 main/binary-amd64/Packages
+ 8bfa3019376d6dfbe4fb39c8a6f1a7f1e01c72b8b5ec49d4b31e4f0977849070dc2bb01f17e4e523708c317ef5401b1d2415addb9a31cc4921c2cc9b94b6f765 726 main/binary-amd64/Packages.gz
  c86ef9049906106b037bcc4c09cea3ff4cc83ef1026335cc9ed415dd1e1a9bae8b64400f6fa6239be632cdc623054ee792cad3ebbaba418cf88af646fb2d6645 99 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEBMq+td12us8r1D0v86zGD2LqUcsFAmV28gkACgkQ86zGD2Lq
-UcucGxAAtaaWHsXi+o7U1iBWzms2bFjrzIb8qSztbv6OfV5j0Wc+U9Im6Zgf/Z0H
-OK/BLmugCqWK1kUBh69cFfAYUx0RGaxKOhxpmmHfiAe3H3tYp1Tim5NlaICeBz8e
-ebQYU8gH414mjw48wAKHl5TmzoUVyMh6b5aTbKuGqCTw71kvnWaDl1t4vgoc9CtG
-uZOu0WgnqfCIWgDi+tpNYyKfZRONkxYAJSMzdSA/SfrzIdGH5vIhHqp70ROfGVvd
-2VQpQhU0MAFIyh/GlqXW97ABc1FJRp1rzcWg+Q3/1HxNFhCNPPOIkqHnHPl/vBlO
-HIYMPENSsu4o+hCgvI7FtXt3X98S57j5m7Dx2PDXva5FiL7/zV624KzsN/VrZEM4
-LEjldtj6R96BlQbnOJdM2gQibtZq5/9GXIZxyCaeVGof0FSqiw+T7pWmub86n2QP
-ozRC+rLAJ805KozWSN96RT/0qOSecbgFa6mCI9k9ZpbMAb/LNpDYe1I7VCaoK3rT
-34esE7RKSKkJhN6FrfnLDTLjhR3+g0ZCCZEb2g3KnRfFcUp0PY/9HUtlPc3soIu2
-TEaXrbynVMbf1bgEkztKFV7fLNZn9jhzmfkECA5/NFYITvc/aNrcKwaffqDUcD95
-rpyhygdD/kYYFJFMH1Gdt160zIEpi+0pHgAR9rmx2+9I164FgnM=
-=LrUb
+iQIzBAEBCAAdFiEEBMq+td12us8r1D0v86zGD2LqUcsFAmXc45kACgkQ86zGD2Lq
+Ucv0tw//Ra1HLJCMPQdugVbC3sJA6LHGHzHHnHmtXMAhVMUZaX+aUrc9MIrsiV8y
+0Bn4cZQV24AsV/PqNXLjfwVqkjOf1nfS/KQmMvW3NMhoSAAY7nHni+wsjuInNT0Y
+pU6cKJaPSNKhkprC2B2yUDk8CW2HoPqPE/p1VQBlF5LBpsEURfsTZBtOHeFGGvTH
+CZ44cwwAKoXK8STkxE4HB0TCjZSJhysknZ5DtjiVm2khn+vo6nj7KAuXB4HjL0F1
+zz0CFmNEv1129n+pKhhgJ712GxvmQwjxNnMZMy0GUGwxB90WrMe6G4hkAc8dH0nC
+LGY7VrBseMPICPVsD/HFeZprbUsfh7cATmFgUz+cVCXyKs7/lsS5BUHTlBjY3zD+
+3NFqXyybb49Bk+a+yfPWm5d4Uu4uOLlChHc2r7KIsF94FCi+yA1vL1z03ZoznfNh
+njzaUfXpLq3aoMGvv4iNWsozxuQpmB8H3AfrwCgRZEzkUEzmbPISSiZuNNzJ+Y2X
+uq+r32O1xphNwgPCnh4oLuS/D+w4Z3q2K5D+inLz4FtCPlb9lc/i/9/tljPzeLQ6
+sEvNBCGZKsviuz2hnuLdP3VPfnFjaXoK9Qr5lClfJdxVeP2AehkdPax3qxTAqIbq
+fFAQJsUK0/QD5Y/+nkIEDYsmRCaKSB1Rzs2m/+Us0InEOs/mjFs=
+=8VYV
 -----END PGP SIGNATURE-----
