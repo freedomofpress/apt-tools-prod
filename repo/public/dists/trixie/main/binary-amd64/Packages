@@ -9,7 +9,6 @@ Priority: optional
 Section: python
 Filename: pool/main/d/dangerzone/dangerzone_0.6.0-1_all.deb
 Size: 626684772
-SHA512: 8f1f2e3eec1aa4ca604b2c94fa9a2ab68d7efa1f8840a6590f7916d6d5c9e87e6737fcbab77c12c74f4b16c8047120b235380e82c690115f6c8339710fb320a4
 SHA256: f29a330cb6a100ab16e1969f46141c8c9b1201ece7d1c5c7f6f4a033d7c6457f
 SHA1: 67526981bcc65f1e7bd22f373e3a58c3b8bce651
 MD5sum: 42295e583478c1d3ab65fbf9865a580d
