@@ -24,6 +24,8 @@ REPO_DIRS = [
     "dangerzone",
 ]
 
+DZ_SIGNING_PUBKEY = "DE28AB241FA48260FAC9B8BAA7C9B38522604281"
+
 
 def publish_packages(repo_subdir, distros=None):
     """
@@ -121,6 +123,26 @@ def signing_instructions():
     print("and commit those changes to finalize the release.")
 
 
+def sign_release_files():
+    for f in get_release_files():
+        logger.info(f"Signing {f}")
+        subprocess.run(
+            [
+                "gpg",
+                "--batch",
+                "--yes",
+                "--armor",
+                "--detach-sig",
+                "-u",
+                DZ_SIGNING_PUBKEY,
+                "-o",
+                f + ".gpg",
+                f,
+            ],
+            check=True,
+        )
+
+
 def parse_args():
     parser = argparse.ArgumentParser(
         prog=sys.argv[0],
@@ -138,6 +160,10 @@ def parse_args():
             "DANGEROUS! Do not validate the repo. Should be used only for"
             "testing"
         )
+    )
+    parser.add_argument(
+        "--sign", default=False, action="store_true",
+        help="Only sign the Release files",
     )
     return parser.parse_args()
 
@@ -171,6 +197,11 @@ def main():
     setup_logging()
 
     assert os.path.exists(REPREPRO_DIR)
+
+    if args.sign:
+        logger.info("Signing the produced Release files")
+        sign_release_files()
+        return
 
     if args.TEST_no_validate:
         logger.warning("Skipping repo validation")
