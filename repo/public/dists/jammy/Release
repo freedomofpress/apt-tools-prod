@@ -1,19 +1,19 @@
 Origin: Dangerzone
 Codename: jammy
-Date: Fri, 05 Apr 2024 15:47:41 UTC
-Valid-Until: Tue, 08 Oct 2024 15:47:41 UTC
+Date: Mon, 13 May 2024 15:11:37 UTC
+Valid-Until: Fri, 15 Nov 2024 15:11:37 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (jammy)
 MD5Sum:
- 58f13a71dd83ec966f7eb5b005d4851f 2770 main/binary-amd64/Packages
- 9745db9e592bfcdce9a232ae8ac60ce4 1400 main/binary-amd64/Packages.gz
+ d1f8cac4c4f6d73b459487dbf4834f88 2770 main/binary-amd64/Packages
+ fadf4779e49ab99620ec3c881e8bbab3 1402 main/binary-amd64/Packages.gz
  bc8d1cdab96722ec75937324063544c1 96 main/binary-amd64/Release
 SHA1:
- d69003a17995be075b8afe6729aad03eabd255d1 2770 main/binary-amd64/Packages
- 507df688c11a957b9d11dd660f5f3ef98e2c3731 1400 main/binary-amd64/Packages.gz
+ dae9cda5cbd9db37f5d75ed4681b9cc6e82d53b2 2770 main/binary-amd64/Packages
+ 474554771c1b3c7680d2561abfbffb8eda058d73 1402 main/binary-amd64/Packages.gz
  0e797694e566a15eed5b90929e2ddb15d70b7a11 96 main/binary-amd64/Release
 SHA256:
- 50100224ce71ee78ad6bd34c5dc61f32a727ec68d1eb112581ccc2d42fb81d85 2770 main/binary-amd64/Packages
- a6e4bd8d4cb44684701637daf881afd053b8ebc9da59a6b3a01714daf821c38c 1400 main/binary-amd64/Packages.gz
+ e53482b1bfacd7cc8d5b87a4bdc1b10197ecaf2adfd43cc9f466140947837d39 2770 main/binary-amd64/Packages
+ b84085decc9786afe95dc6f6496c4741bed000e740988b9a5fdf8f10457b640c 1402 main/binary-amd64/Packages.gz
  d6313f9874b80e3eb45332e892d599e9da3b4742319536d1f4945932059f965b 96 main/binary-amd64/Release

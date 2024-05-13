@@ -1,19 +1,19 @@
 Origin: Dangerzone
-Codename: bullseye
-Date: Mon, 13 May 2024 15:11:42 UTC
-Valid-Until: Fri, 15 Nov 2024 15:11:42 UTC
+Codename: noble
+Date: Mon, 13 May 2024 15:11:27 UTC
+Valid-Until: Fri, 15 Nov 2024 15:11:27 UTC
 Architectures: amd64
 Components: main
-Description: Dangerzone packages (bullseye)
+Description: Dangerzone packages (noble)
 MD5Sum:
  18b52d34d3e6360a8d211284c131a8d5 1082 main/binary-amd64/Packages
  f62006ad25d029bff67336dc9a2b7777 628 main/binary-amd64/Packages.gz
- 1f0ae5c83457b295048724f64ff75d94 99 main/binary-amd64/Release
+ 1187aed6c9356699989e6c11b7420090 96 main/binary-amd64/Release
 SHA1:
  143157ce86beaa62b8596b2f8f17c8eaa6ca2148 1082 main/binary-amd64/Packages
  a86442ff44312c051d866d7e758bfcdbebfc3e1b 628 main/binary-amd64/Packages.gz
- 3f09503d81ba98e1c97547aadc2cdcef286c6e9b 99 main/binary-amd64/Release
+ 46e94158d9fb46e264ab9196c8dc7ee8f17ca04f 96 main/binary-amd64/Release
 SHA256:
  9f305d05f00409f7ba7445b05e0af719922addb7d722ef4ebf533c5168acadbd 1082 main/binary-amd64/Packages
  6a35e4185d4cbb1a149fae77c837e9664438e91dab53a511dc83d5e8599652cc 628 main/binary-amd64/Packages.gz
- 88290bd9d634910600296f4c2ff63cc0d2c476e49d292ecd4c519edf83b11b96 99 main/binary-amd64/Release
+ d93e33e016099f5c67b84708f9e132d8cdf8bbe23f38ef82eb9ad668c8ec33cd 96 main/binary-amd64/Release
