@@ -34,6 +34,13 @@ ValidFor: 6m
 Description: Dangerzone packages (mantic)
 
 Origin: Dangerzone
+Codename: noble
+Components: main
+Architectures: amd64
+ValidFor: 6m
+Description: Dangerzone packages (noble)
+
+Origin: Dangerzone
 Codename: trixie
 Components: main
 Architectures: amd64
