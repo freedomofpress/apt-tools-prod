@@ -8,10 +8,113 @@ jobs:
     runs-on: ubuntu-latest
     container: debian:bullseye
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Install Debian packaging dependencies
         run: apt-get update && apt-get install -y gpg
       - name: Verify signatures on all Release files
         run: |
           gpg --import repo/public/fpf-apt-tools-archive-keyring.gpg
           for i in repo/public/dists/*/Release; do gpg --verify "${i}.gpg" "$i"; done
+
+  install-deb:
+    name: "Install on ${{ matrix.distro }} ${{matrix.version}}"
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - target: ubuntu-20.04
+            distro: ubuntu
+            version: "20.04"
+            version-name: focal
+          - target: ubuntu-22.04
+            distro: ubuntu
+            version: "22.04"
+            version-name: jammy
+          - target: ubuntu-23.10
+            distro: ubuntu
+            version: "23.10"
+            version-name: mantic
+          - target: ubuntu-24.04
+            distro: ubuntu
+            version: "24.04"
+            version-name: noble
+          - target: debian-bullseye
+            distro: debian
+            version: bullseye
+            version-name: bullseye
+          - target: debian-bookworm
+            distro: debian
+            version: bookworm
+            version-name: bookworm
+          - target: debian-trixie
+            distro: debian
+            version: trixie
+            version-name: trixie
+
+    steps:
+      - name: Checkout dangerzone repo
+        uses: actions/checkout@v4
+        with:
+          repository: freedomofpress/dangerzone
+          path: main
+
+      - name: Checkout apt-tools-prod repo
+        uses: actions/checkout@v4
+        with:
+          path: deb
+          lfs: 'true'
+
+      - name: cp dangerzone .deb
+        run: |
+          mkdir "./main/deb_dist"
+          cp ./deb/dangerzone/${{ matrix.version-name }}/dangerzone_*_all.deb ./main/deb_dist/.
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Create end-user environment on (${{ matrix.target }})
+        working-directory: main
+        run: |
+          ./dev_scripts/env.py --distro ${{ matrix.distro }} \
+              --version ${{ matrix.version }} \
+              build
+
+      - name: Configure Podman for Debian Bullseye specifically
+        working-directory: main
+        if: matrix.target == 'debian-bullseye'
+        run: |
+          # Create a Podman config specifically for Bullseye (see #388).
+          mkdir bullseye_fix
+          cd bullseye_fix
+          cat > containers.conf <<EOF
+          [engine]
+          cgroup_manager="cgroupfs"
+          events_logger="file"
+          EOF
+
+          # Copy the Podman config into the container image we created for the
+          # Dangerzone environment.
+          cat > Dockerfile.bullseye <<EOF
+          FROM dangerzone.rocks/debian:bullseye-backports
+          RUN mkdir -p /home/user/.config/containers
+          COPY containers.conf /home/user/.config/containers/
+          EOF
+
+          # Create a new image from the Dangerzone environment and re-tag it.
+          podman build -t dangerzone.rocks/debian:bullseye-backports \
+              -f Dockerfile.bullseye .
+
+      - name: Run a test command
+        working-directory: main
+        run: |
+          ./dev_scripts/env.py --distro ${{ matrix.distro }} \
+              --version ${{ matrix.version }} \
+              run dangerzone-cli dangerzone/tests/test_docs/sample-pdf.pdf
+
+      - name: Check that the Dangerzone GUI imports work
+        working-directory: main
+        run: |
+          ./dev_scripts/env.py --distro ${{ matrix.distro }} \
+              --version ${{ matrix.version }} \
+              run dangerzone --help
