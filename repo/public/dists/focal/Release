@@ -1,19 +1,19 @@
 Origin: Dangerzone
 Codename: focal
-Date: Mon, 13 May 2024 15:11:32 UTC
-Valid-Until: Fri, 15 Nov 2024 15:11:32 UTC
+Date: Wed, 10 Jul 2024 11:50:20 UTC
+Valid-Until: Sun, 12 Jan 2025 11:50:20 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (focal)
 MD5Sum:
- 18b52d34d3e6360a8d211284c131a8d5 1082 main/binary-amd64/Packages
- f62006ad25d029bff67336dc9a2b7777 628 main/binary-amd64/Packages.gz
+ 827468ade2c1667c139a26af21323463 1082 main/binary-amd64/Packages
+ 330b29296fe6809399ddca65ca4830d0 630 main/binary-amd64/Packages.gz
  0aff671f0e00ef5fe6d7eed2d5b1d00c 96 main/binary-amd64/Release
 SHA1:
- 143157ce86beaa62b8596b2f8f17c8eaa6ca2148 1082 main/binary-amd64/Packages
- a86442ff44312c051d866d7e758bfcdbebfc3e1b 628 main/binary-amd64/Packages.gz
+ 7580bf1d022519ccadc09e2037b50824fa707d4f 1082 main/binary-amd64/Packages
+ 0d1fa9056429976c80d8bdf10d9e239ebf513275 630 main/binary-amd64/Packages.gz
  5a85262f40af8c2fe68525ed7cb62791029230ed 96 main/binary-amd64/Release
 SHA256:
- 9f305d05f00409f7ba7445b05e0af719922addb7d722ef4ebf533c5168acadbd 1082 main/binary-amd64/Packages
- 6a35e4185d4cbb1a149fae77c837e9664438e91dab53a511dc83d5e8599652cc 628 main/binary-amd64/Packages.gz
+ 91830dd6b5a1f0ccc5cb84bdd75658664df9800481c4194c33f8e22db6dcf3c8 1082 main/binary-amd64/Packages
+ 30752f4b08e9cac7ca5037cc9228d20def120c2243023cb18867e94b4d244edc 630 main/binary-amd64/Packages.gz
  aff1619021d39567260d7d8c2fe24a177eb05fc7c5e0ebd7c61f06d4e6a37f52 96 main/binary-amd64/Release
