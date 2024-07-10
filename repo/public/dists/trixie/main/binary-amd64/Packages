@@ -1,17 +1,17 @@
 Package: dangerzone
-Version: 0.6.1-1
+Version: 0.7.0-1
 Architecture: all
 Maintainer: Freedom of the Press Foundation <info@freedom.press>
-Installed-Size: 622939
-Depends: python3:any (>= 3.6~), podman, python3, python3-pyside2.qtcore, python3-pyside2.qtgui, python3-pyside2.qtwidgets, python3-pyside2.qtsvg, python3-appdirs, python3-click, python3-xdg, python3-colorama, python3-requests, python3-markdown, python3-packaging
+Installed-Size: 678690
+Depends: python3:any (>= 3.8~), podman, python3, python3-pyside2.qtcore, python3-pyside2.qtgui, python3-pyside2.qtwidgets, python3-pyside2.qtsvg, python3-appdirs, python3-click, python3-xdg, python3-colorama, python3-requests, python3-markdown, python3-packaging
 Homepage: https://github.com/freedomofpress/dangerzone
 Priority: optional
 Section: python
-Filename: pool/main/d/dangerzone/dangerzone_0.6.1-1_all.deb
-Size: 632700680
-SHA256: 9cb41ecf73f80121fcd5713bc044386eb18027a2542ac9e6253bb4e98a64e350
-SHA1: 7ed9c8c58404a3f737a6485d0d085ab99d16ecee
-MD5sum: f8da309eb43930f020af308cc967e929
+Filename: pool/main/d/dangerzone/dangerzone_0.7.0-1_all.deb
+Size: 690560352
+SHA256: fe48fd98d8ef3523b73d16c1c526166b42d5f7724431bdadb1b1758a655294ec
+SHA1: a48f1005dcef43624ef49ca3fd9cb569e69a56f1
+MD5sum: dbc0cdf3ac792809397b6b32b67ea075
 Description: Take potentially dangerous PDFs, office documents, or images
  Dangerzone is an open source desktop application that takes potentially dangerous PDFs, office documents, or images and converts them to safe PDFs. It uses disposable VMs on Qubes OS, or container technology in other OSes, to convert the documents within a secure sandbox.
 
