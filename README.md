@@ -40,3 +40,8 @@ Currently, this includes [Dangerzone](https://dangerzone.rocks/).
 
 When PRs are merged, `packages.freedom.press` will pull new files and
 serve the contents of `repo/public`.
+
+## Adding a new distribution
+
+- Add a new folder inside `dangerzone`, named after the distribution version
+- Update the `repo/conf/distributions` file and add your distrbution version.
