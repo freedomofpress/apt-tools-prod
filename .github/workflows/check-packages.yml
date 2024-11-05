@@ -30,10 +30,6 @@ jobs:
             distro: ubuntu
             version: "22.04"
             version-name: jammy
-          - target: ubuntu-23.10
-            distro: ubuntu
-            version: "23.10"
-            version-name: mantic
           - target: ubuntu-24.04
             distro: ubuntu
             version: "24.04"

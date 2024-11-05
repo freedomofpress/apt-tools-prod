@@ -27,13 +27,6 @@ ValidFor: 6m
 Description: Dangerzone packages (jammy)
 
 Origin: Dangerzone
-Codename: mantic
-Components: main
-Architectures: amd64
-ValidFor: 6m
-Description: Dangerzone packages (mantic)
-
-Origin: Dangerzone
 Codename: noble
 Components: main
 Architectures: amd64
