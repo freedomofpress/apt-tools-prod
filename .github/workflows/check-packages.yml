@@ -89,7 +89,9 @@ jobs:
         run: |
           ./dev_scripts/env.py --distro ${{ matrix.distro }} \
               --version ${{ matrix.version }} \
-              run dangerzone-cli dangerzone/tests/test_docs/sample-pdf.pdf
+              run dangerzone-cli \
+              --ocr-lang eng \
+              dangerzone/tests/test_docs/sample-pdf.pdf
 
       - name: Check that the Dangerzone GUI imports work
         working-directory: main
