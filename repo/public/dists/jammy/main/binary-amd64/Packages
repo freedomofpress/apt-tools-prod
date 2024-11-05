@@ -37,19 +37,20 @@ Description: OCI container runtime monitor
  daemon a container can have.
 
 Package: dangerzone
-Version: 0.7.1-1
-Architecture: all
+Version: 0.8.0
+Architecture: amd64
 Maintainer: Freedom of the Press Foundation <info@freedom.press>
-Installed-Size: 676533
-Depends: python3:any (>= 3.8~), podman, python3, python3-pyside2.qtcore, python3-pyside2.qtgui, python3-pyside2.qtwidgets, python3-pyside2.qtsvg, python3-appdirs, python3-click, python3-xdg, python3-colorama, python3-requests, python3-markdown, python3-packaging
+Installed-Size: 499965
+Depends: python3:any, podman, python3, python3-pyside2.qtcore, python3-pyside2.qtgui, python3-pyside2.qtwidgets, python3-pyside2.qtsvg, python3-appdirs, python3-click, python3-xdg, python3-colorama, python3-requests, python3-markdown, python3-packaging, tesseract-ocr-all
 Homepage: https://github.com/freedomofpress/dangerzone
 Priority: optional
 Section: python
-Filename: pool/main/d/dangerzone/dangerzone_0.7.1-1_all.deb
-Size: 687290056
-SHA256: f5caae2c3bb5efa07ebd332d1688d5a0c2b476b712a3a89af2b913abb6fd965c
-SHA1: 75f78b660fc116799c62fb0b5fed8ca42e2093a7
-MD5sum: c6710eaddfd25f13472b80d6e0097702
+Filename: pool/main/d/dangerzone/dangerzone_0.8.0_amd64.deb
+Size: 522438672
+SHA256: e6e13f5d78edd8ba008542e32498429852d48aa917211159ecbed14d1637587b
+SHA1: 22c477238cbb47588b9c16f1541d2680b6dd2d37
+MD5sum: 3ba74600f947cd86ea0bf5d6505c04cb
 Description: Take potentially dangerous PDFs, office documents, or images
- Dangerzone is an open source desktop application that takes potentially dangerous PDFs, office documents, or images and converts them to safe PDFs. It uses disposable VMs on Qubes OS, or container technology in other OSes, to convert the documents within a secure sandbox.
+  Dangerzone is an open source desktop application that takes potentially dangerous PDFs, office documents, or images and converts them to safe PDFs. It uses disposable VMs on Qubes OS, or container technology in other OSes, to convert the documents within a secure sandbox.
+  .
 
