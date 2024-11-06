@@ -66,12 +66,12 @@ jobs:
 
       - name: update version from the package
         run: |
-          echo ./deb/dangerzone/${{ matrix.version-name }}/dangerzone_*_all.deb | sed 's/.*_\(.*\)-[^-]*_.*\.deb/\1/' > ./main/share/version.txt
+          echo ./deb/dangerzone/${{ matrix.version-name }}/dangerzone_*_amd64.deb | sed 's/.*_\(.*\)-[^-]*_.*\.deb/\1/' > ./main/share/version.txt
 
       - name: cp dangerzone .deb
         run: |
           mkdir "./main/deb_dist"
-          cp ./deb/dangerzone/${{ matrix.version-name }}/dangerzone_*_all.deb ./main/deb_dist/.
+          cp ./deb/dangerzone/${{ matrix.version-name }}/dangerzone_*_amd64.deb ./main/deb_dist/.
 
       - uses: actions/setup-python@v5
         with:
