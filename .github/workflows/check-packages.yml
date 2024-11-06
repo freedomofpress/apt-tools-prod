@@ -30,10 +30,6 @@ jobs:
             distro: ubuntu
             version: "22.04"
             version-name: jammy
-          - target: ubuntu-23.10
-            distro: ubuntu
-            version: "23.10"
-            version-name: mantic
           - target: ubuntu-24.04
             distro: ubuntu
             version: "24.04"
@@ -70,12 +66,12 @@ jobs:
 
       - name: update version from the package
         run: |
-          echo ./deb/dangerzone/${{ matrix.version-name }}/dangerzone_*_all.deb | sed 's/.*_\(.*\)-[^-]*_.*\.deb/\1/' > ./main/share/version.txt
+          echo ./deb/dangerzone/${{ matrix.version-name }}/dangerzone_*_amd64.deb | sed 's/.*_\(.*\)-[^-]*_.*\.deb/\1/' > ./main/share/version.txt
 
       - name: cp dangerzone .deb
         run: |
           mkdir "./main/deb_dist"
-          cp ./deb/dangerzone/${{ matrix.version-name }}/dangerzone_*_all.deb ./main/deb_dist/.
+          cp ./deb/dangerzone/${{ matrix.version-name }}/dangerzone_*_amd64.deb ./main/deb_dist/.
 
       - uses: actions/setup-python@v5
         with:
@@ -93,7 +89,9 @@ jobs:
         run: |
           ./dev_scripts/env.py --distro ${{ matrix.distro }} \
               --version ${{ matrix.version }} \
-              run dangerzone-cli dangerzone/tests/test_docs/sample-pdf.pdf
+              run dangerzone-cli \
+              --ocr-lang eng \
+              dangerzone/tests/test_docs/sample-pdf.pdf
 
       - name: Check that the Dangerzone GUI imports work
         working-directory: main
