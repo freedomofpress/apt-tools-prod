@@ -6,29 +6,37 @@ Currently, this includes [Dangerzone](https://dangerzone.rocks/).
 ## Prerequisites
 
 - [git-lfs](https://git-lfs.github.com/) to store large files.
-- [reprepro](https://salsa.debian.org/brlink/reprepro) to update the local
-  Debian repo:
-  * To install from source, try
-    [this repo](https://github.com/ionos-cloud/reprepro).
-  * Alternatively, build a container image using the `Dockerfile` in this repo:
+- Docker, to use the required version of [reprepro](https://salsa.debian.org/brlink/reprepro), across OSes.
 
-    ```
-    docker build -t apt-tools-prod-builder .
-    ```
+## Installation
 
-- `zstd`, for newer Ubuntu distributions and future Debian distributions
-  (this has not been thoroughly tested yet).
+First, set up a machine with the GPG key used for signing Release files.
+
+Then, build a container image using the `Dockerfile` in this repo:
+
+```
+docker build -t apt-tools-prod-builder .
+```
 
 ## Usage
 
-- Set up a machine with the GPG key used for signing Release files.
+When you want to release some files on the apt repository, you will need to add
+them in the `dangerzone/*` folders, and then rebuild the debian repository from
+scratch.
 
 - Commit new package files to each suite in `dangerzone`. You may want to
   prune older versions as new ones are released, to keep the repo
-  manageable.
+  manageable. You can use the scripts located in `./tools` for this:
 
-- Run `./tools/publish`, to populate the Debian database.
-  * You can run this part in a Docker container:
+  * `./tools/remove-version X.Y.Z` will remove all Dangerzone packages from the
+    repository that match a specific version.
+  * `./tools/add-version` will get the debian file from the main dangerzone
+    repository, put it in the proper folder and create symlinks.
+  * `./tools/reset-repo` will reset the repository, it can be useful before
+    publishing it.
+
+- Then, you can run `./tools/publish`, to populate the Debian database.
+  * Here is how you can do this inside a container:
 
     ```
     docker run --rm -v .:/home/user/apt-tools-prod apt-tools-prod-builder ./tools/publish
@@ -41,7 +49,10 @@ Currently, this includes [Dangerzone](https://dangerzone.rocks/).
 When PRs are merged, `packages.freedom.press` will pull new files and
 serve the contents of `repo/public`.
 
-## Adding a new distribution
+## Adding and removing a distribution
 
-- Add a new folder inside `dangerzone`, named after the distribution version
-- Update the `repo/conf/distributions` file and add your distrbution version.
+You need to do the following things when adding and/or removing a distribution:
+
+- Update the `dangerzone/*` folders accordingly. They are named after the distribution version
+- Update the `repo/conf/distributions` file and add/remove your distribution version.
+- Update the `.github/workflows/ci.yaml` file, with the updated distribution list.
