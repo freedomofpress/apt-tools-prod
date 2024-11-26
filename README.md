@@ -6,7 +6,7 @@ Currently, this includes [Dangerzone](https://dangerzone.rocks/).
 ## Prerequisites
 
 - [git-lfs](https://git-lfs.github.com/) to store large files.
-- Docker, to use the required version of [reprepro](https://salsa.debian.org/brlink/reprepro), across OSes.
+- Podman, to use the required version of [reprepro](https://salsa.debian.org/brlink/reprepro), across OSes.
 
 ## Installation
 
@@ -15,7 +15,7 @@ First, set up a machine with the GPG key used for signing Release files.
 Then, build a container image using the `Dockerfile` in this repo:
 
 ```
-docker build -t apt-tools-prod-builder .
+podman build -t apt-tools-prod-builder .
 ```
 
 ## Usage
@@ -38,8 +38,9 @@ scratch.
 - Then, you can run `./tools/publish`, to populate the Debian database.
   * Here is how you can do this inside a container:
 
-    ```
-    docker run --rm -v .:/home/user/apt-tools-prod apt-tools-prod-builder ./tools/publish
+    ```bash
+    
+    podman run --rm --userns=keep-id --volume="$(pwd):/home/user/apt-tools-prod" apt-tools-prod-builder ./tools/publish
     ```
 
 - Run `./tools/publish --sign` to sign the release files. This part must run
