@@ -5,7 +5,7 @@ on: [push, pull_request]
 
 jobs:
   check-sigs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24
     container: debian:bullseye
     steps:
       - uses: actions/checkout@v4
@@ -18,7 +18,7 @@ jobs:
 
   install-deb:
     name: "Install on ${{ matrix.distro }} ${{matrix.version}}"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24
     strategy:
       matrix:
         include:
