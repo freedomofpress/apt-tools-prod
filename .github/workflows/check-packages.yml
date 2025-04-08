@@ -22,10 +22,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - target: ubuntu-20.04
-            distro: ubuntu
-            version: "20.04"
-            version-name: focal
           - target: ubuntu-22.04
             distro: ubuntu
             version: "22.04"
