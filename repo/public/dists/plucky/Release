@@ -1,19 +1,19 @@
 Origin: Dangerzone
-Codename: bookworm
-Date: Tue, 08 Apr 2025 17:29:55 UTC
-Valid-Until: Sat, 11 Oct 2025 17:29:55 UTC
+Codename: plucky
+Date: Tue, 08 Apr 2025 17:29:36 UTC
+Valid-Until: Sat, 11 Oct 2025 17:29:36 UTC
 Architectures: amd64
 Components: main
-Description: Dangerzone packages (bookworm)
+Description: Dangerzone packages (oracular)
 MD5Sum:
  91895fae17143ab8bda91242559f81fb 1106 main/binary-amd64/Packages
  80bf729a86265d9ddd25190d7ea406df 636 main/binary-amd64/Packages.gz
- d63023616f31bc57cc9ff9aae3b3da69 99 main/binary-amd64/Release
+ 34df64df99795fda1633995153c7a5d8 99 main/binary-amd64/Release
 SHA1:
  482ced0d89165448712a853879be8e33dfaf8ede 1106 main/binary-amd64/Packages
  6ce2bc4e4748b69dfd1dc2332e07952124791b95 636 main/binary-amd64/Packages.gz
- 9558cc36c06fc891d28755b43f8317647337dd87 99 main/binary-amd64/Release
+ 0373033d0e5e270014cf8df691b14b4ca206e8b1 99 main/binary-amd64/Release
 SHA256:
  d94d48443602de7b1d8a7ca9da11e48e6adee94cfe21314c5b1f9ab31459c030 1106 main/binary-amd64/Packages
  ad06b8cfa07e74184ce3e6a1fd47f80247b2a8b0b9fc93fc3beb4a8659dc4357 636 main/binary-amd64/Packages.gz
- 26f9bfc7b0cc94efe2e853b6fddf80bc3948c4de5811457854da2f43ef168cdf 99 main/binary-amd64/Release
+ 715127b7814c5a05a23fcf4ee596bace983e41ab98308d41cd023b8dc89fb5b6 99 main/binary-amd64/Release
