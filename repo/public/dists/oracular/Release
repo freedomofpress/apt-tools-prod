@@ -1,19 +1,19 @@
 Origin: Dangerzone
 Codename: oracular
-Date: Wed, 05 Feb 2025 16:59:56 UTC
-Valid-Until: Sun, 10 Aug 2025 16:59:56 UTC
+Date: Tue, 08 Apr 2025 17:29:51 UTC
+Valid-Until: Sat, 11 Oct 2025 17:29:51 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (oracular)
 MD5Sum:
- c71d8cdef6d6fd72880c4d0965c09e2a 1096 main/binary-amd64/Packages
- 139bf1b1310132ffbdc5685ef1771762 633 main/binary-amd64/Packages.gz
+ 91895fae17143ab8bda91242559f81fb 1106 main/binary-amd64/Packages
+ 80bf729a86265d9ddd25190d7ea406df 636 main/binary-amd64/Packages.gz
  34df64df99795fda1633995153c7a5d8 99 main/binary-amd64/Release
 SHA1:
- 580bc4ce9536ca4b963f0ec521c17cba4e30cbae 1096 main/binary-amd64/Packages
- de048771cd6df27d0f20c76724dbbd4000ee6ce4 633 main/binary-amd64/Packages.gz
+ 482ced0d89165448712a853879be8e33dfaf8ede 1106 main/binary-amd64/Packages
+ 6ce2bc4e4748b69dfd1dc2332e07952124791b95 636 main/binary-amd64/Packages.gz
  0373033d0e5e270014cf8df691b14b4ca206e8b1 99 main/binary-amd64/Release
 SHA256:
- cb64da247a55e993d0d91fff8243cc0f6a4ee1beb008bcb215163e1a78df3a7a 1096 main/binary-amd64/Packages
- 715088e6b281bfd2ac83f291c2db7c2f3434eb4a1b263860e9ba19da6a6b4ef6 633 main/binary-amd64/Packages.gz
+ d94d48443602de7b1d8a7ca9da11e48e6adee94cfe21314c5b1f9ab31459c030 1106 main/binary-amd64/Packages
+ ad06b8cfa07e74184ce3e6a1fd47f80247b2a8b0b9fc93fc3beb4a8659dc4357 636 main/binary-amd64/Packages.gz
  715127b7814c5a05a23fcf4ee596bace983e41ab98308d41cd023b8dc89fb5b6 99 main/binary-amd64/Release

@@ -13,13 +13,6 @@ ValidFor: 6m
 Description: Dangerzone packages (bullseye)
 
 Origin: Dangerzone
-Codename: focal
-Components: main
-Architectures: amd64
-ValidFor: 6m
-Description: Dangerzone packages (focal)
-
-Origin: Dangerzone
 Codename: jammy
 Components: main
 Architectures: amd64
@@ -42,6 +35,13 @@ Description: Dangerzone packages (trixie)
 
 Origin: Dangerzone
 Codename: oracular
+Components: main
+Architectures: amd64
+ValidFor: 6m
+Description: Dangerzone packages (oracular)
+
+Origin: Dangerzone
+Codename: plucky
 Components: main
 Architectures: amd64
 ValidFor: 6m

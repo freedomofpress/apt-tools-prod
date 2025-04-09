@@ -1,19 +1,19 @@
 Origin: Dangerzone
 Codename: trixie
-Date: Wed, 05 Feb 2025 17:00:14 UTC
-Valid-Until: Sun, 10 Aug 2025 17:00:14 UTC
+Date: Tue, 08 Apr 2025 17:30:14 UTC
+Valid-Until: Sat, 11 Oct 2025 17:30:14 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (trixie)
 MD5Sum:
- c8f58aaec08ef969ce852e3940d2d3eb 1110 main/binary-amd64/Packages
- 2ee3b2d3c86243600e0548ea7afc1334 642 main/binary-amd64/Packages.gz
+ 91895fae17143ab8bda91242559f81fb 1106 main/binary-amd64/Packages
+ 80bf729a86265d9ddd25190d7ea406df 636 main/binary-amd64/Packages.gz
  9a92ff0ff28fe522aaf189b41b9c84fa 97 main/binary-amd64/Release
 SHA1:
- c7718c14cb43225d6883344230b8995382a3fe0c 1110 main/binary-amd64/Packages
- 56bfcee31aad9c3f8814216e6560ea1a448e6ade 642 main/binary-amd64/Packages.gz
+ 482ced0d89165448712a853879be8e33dfaf8ede 1106 main/binary-amd64/Packages
+ 6ce2bc4e4748b69dfd1dc2332e07952124791b95 636 main/binary-amd64/Packages.gz
  e8ca019dbd31c60e35bc5125eb2f8e1eb7da66aa 97 main/binary-amd64/Release
 SHA256:
- aaf370edb846b43dd17e5688517d265ec825df1b12ec6ea3c9f32391e527d37e 1110 main/binary-amd64/Packages
- 1369ed3d1fab225889e23718c836dc827fb806210c446c37edc7377ccc725aea 642 main/binary-amd64/Packages.gz
+ d94d48443602de7b1d8a7ca9da11e48e6adee94cfe21314c5b1f9ab31459c030 1106 main/binary-amd64/Packages
+ ad06b8cfa07e74184ce3e6a1fd47f80247b2a8b0b9fc93fc3beb4a8659dc4357 636 main/binary-amd64/Packages.gz
  a709d167f1a201a81143a15f7e16f776918651476bcea109edfad1a48d0cedba 97 main/binary-amd64/Release

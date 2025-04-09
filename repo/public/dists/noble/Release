@@ -1,19 +1,19 @@
 Origin: Dangerzone
 Codename: noble
-Date: Wed, 05 Feb 2025 16:59:37 UTC
-Valid-Until: Sun, 10 Aug 2025 16:59:37 UTC
+Date: Tue, 08 Apr 2025 17:29:40 UTC
+Valid-Until: Sat, 11 Oct 2025 17:29:40 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (noble)
 MD5Sum:
- c71d8cdef6d6fd72880c4d0965c09e2a 1096 main/binary-amd64/Packages
- 139bf1b1310132ffbdc5685ef1771762 633 main/binary-amd64/Packages.gz
+ 91895fae17143ab8bda91242559f81fb 1106 main/binary-amd64/Packages
+ 80bf729a86265d9ddd25190d7ea406df 636 main/binary-amd64/Packages.gz
  1187aed6c9356699989e6c11b7420090 96 main/binary-amd64/Release
 SHA1:
- 580bc4ce9536ca4b963f0ec521c17cba4e30cbae 1096 main/binary-amd64/Packages
- de048771cd6df27d0f20c76724dbbd4000ee6ce4 633 main/binary-amd64/Packages.gz
+ 482ced0d89165448712a853879be8e33dfaf8ede 1106 main/binary-amd64/Packages
+ 6ce2bc4e4748b69dfd1dc2332e07952124791b95 636 main/binary-amd64/Packages.gz
  46e94158d9fb46e264ab9196c8dc7ee8f17ca04f 96 main/binary-amd64/Release
 SHA256:
- cb64da247a55e993d0d91fff8243cc0f6a4ee1beb008bcb215163e1a78df3a7a 1096 main/binary-amd64/Packages
- 715088e6b281bfd2ac83f291c2db7c2f3434eb4a1b263860e9ba19da6a6b4ef6 633 main/binary-amd64/Packages.gz
+ d94d48443602de7b1d8a7ca9da11e48e6adee94cfe21314c5b1f9ab31459c030 1106 main/binary-amd64/Packages
+ ad06b8cfa07e74184ce3e6a1fd47f80247b2a8b0b9fc93fc3beb4a8659dc4357 636 main/binary-amd64/Packages.gz
  d93e33e016099f5c67b84708f9e132d8cdf8bbe23f38ef82eb9ad668c8ec33cd 96 main/binary-amd64/Release

@@ -22,10 +22,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - target: ubuntu-20.04
-            distro: ubuntu
-            version: "20.04"
-            version-name: focal
           - target: ubuntu-22.04
             distro: ubuntu
             version: "22.04"
@@ -38,6 +34,10 @@ jobs:
             distro: ubuntu
             version: "24.10"
             version-name: oracular
+          - target: ubuntu-25.04
+            distro: ubuntu
+            version: "25.04"
+            version-name: plucky
           - target: debian-bullseye
             distro: debian
             version: bullseye
