@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import glob
-import os
 import shutil
 import subprocess
 from datetime import datetime, UTC
@@ -24,35 +23,33 @@ def format_size(size_bytes):
 
 
 def commit_info(git_root: Path, codename: str, component: str, pkginfo) -> (str, str):
-    # Calculate the original filename in the core or workstation folders
-    if codename in ["noble", "focal"]:
-        group = "core"
-    else:
-        group = "workstation"
-    if component.endswith("-debug"):
-        component = component[:-6]
-    if component == "main":
-        folder = codename
-    else:
-        folder = f"{codename}-{component}"
-    deb_path = git_root / group / folder / Path(pkginfo["Filename"]).name
+    deb_path = Path(pkginfo["Filename"]).name
+    object_id = subprocess.check_output(
+        [
+            "git",
+            "hash-object",
+            git_root / "repo" / "public" / Path(pkginfo["Filename"]),
+        ],
+        text=True,
+    ).strip()
+    if not object_id:
+        raise RuntimeError(f"Error: No Git object ID found for {deb_path}")
+
     # Find the commit in which the file was added
     output = subprocess.check_output(
         [
             "git",
             "log",
-            "--diff-filter=A",
-            "--follow",
             "--format=%H|%ai",
-            "--",
-            str(deb_path),
+            "--find-object",
+            object_id,
         ],
         text=True,
     ).strip()
     if not output:
         raise RuntimeError(f"Error: No commit found for {deb_path}")
-    commit, date = output.split("|")
-    # Git timestamps are in commiter time, convert to UTC and remove the now useless +00:00 offset
+
+    commit, date = output.split("\n")[-1].split("|")
     date = str(datetime.fromisoformat(date).astimezone(UTC)).split("+")[0]
     return commit, date
 
@@ -134,8 +131,8 @@ def generate_html(repo_data):
     template = env.get_template("index.html.j2")
     return template.render(
         repo_data=repo_data,
-        title="SecureDrop APT Repository",
-        repo_name="freedomofpress/securedrop-apt-prod"
+        title="FPF tools APT Repository",
+        repo_name="freedomofpress/apt-tools-prod",
     )
 
 
