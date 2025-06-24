@@ -1,0 +1,34 @@
+---
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    container: debian:bookworm
+    steps:
+      - uses: actions/checkout@v4
+      - name: verify signed by release key
+        run: |
+          apt-get update && apt-get install curl sqv -y
+          curl https://keys.openpgp.org/vks/v1/by-fingerprint/2359E6538C0613E652955E6C188EDD3B7B22E6A3 \
+            > securedrop-keyring.gpg
+          sqv --keyring ./securedrop-keyring.gpg repo/public/dists/bookworm/Release.gpg repo/public/dists/bookworm/Release
+          sqv --keyring ./securedrop-keyring.gpg repo/public/dists/focal/Release.gpg repo/public/dists/focal/Release
+          sqv --keyring ./securedrop-keyring.gpg repo/public/dists/noble/Release.gpg repo/public/dists/noble/Release
+  metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+          # Fetch all history for listing.py that looks at `git log`
+          fetch-depth: "0"
+      - name: repository metadata is up-to-date
+        run: |
+          ./tools/publish
+          # For some reason this file is not reproducible
+          git checkout repo/db/checksums.db
+          git status
+          git diff --exit-code
