@@ -5,6 +5,8 @@ Expects a certain dir structure, will loop over distributions
 specified in subdirectories, then publish all deb packages
 found in each.
 """
+
+import argparse
 import os
 import subprocess
 
@@ -13,11 +15,6 @@ REPO_ROOT = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir))
 REPROPRO_DIR_DEFAULT = os.path.join(REPO_ROOT, "repo")
 REPREPRO_DIR = os.environ.get("REPREPRO_BASE_DIR", REPROPRO_DIR_DEFAULT)
 REPREPRO_PUBLIC_DIR = os.path.join(REPREPRO_DIR, "public")
-
-REPO_DIRS = [
-    "core",
-    "workstation",
-]
 
 
 def publish_packages(repo_subdir):
@@ -31,10 +28,10 @@ def publish_packages(repo_subdir):
     # Add deb packages for each distro, by codename
     for distro in repo_distros:
         distro_path = os.path.join(repo_path, distro)
-        if '-' in distro:
-            distro, component = distro.split('-', 1)
+        if "-" in distro:
+            distro, component = distro.split("-", 1)
         else:
-            component = 'main'
+            component = "main"
         debs = []
         debug_debs = []
         # Build fullpaths to deb packages
@@ -61,7 +58,9 @@ def publish_packages(repo_subdir):
         if debs:
             subprocess.check_call(["reprepro", "-C", component] + common_args + debs)
         if debug_debs:
-            subprocess.check_call(["reprepro", "-C", f"{component}-debug"] + common_args + debug_debs)
+            subprocess.check_call(
+                ["reprepro", "-C", f"{component}-debug"] + common_args + debug_debs
+            )
 
 
 def validate_repo():
@@ -79,7 +78,7 @@ def validate_repo():
             REPREPRO_DIR,
             "--outdir",
             REPREPRO_PUBLIC_DIR,
-            action
+            action,
         ]
         subprocess.check_call(cmd)
 
@@ -108,15 +107,22 @@ def signing_instructions():
 
     print("Release files have been generated:\n")
     for f in release_files:
-        print("\t * "+f)
+        print("\t * " + f)
     print("\nAdd a detached signature file (.gpg) for each,")
     print("and commit those changes to finalize the release.")
 
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("dirs", nargs="+", help="Directories to publish")
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
+    args = parse_args()
     assert os.path.exists(REPREPRO_DIR)
     validate_repo()
-    for repo in REPO_DIRS:
+    for repo in args.dirs:
         publish_packages(repo)
     validate_repo()
     signing_instructions()
