@@ -1,19 +1,19 @@
 Origin: Dangerzone
 Codename: plucky
-Date: Thu, 10 Jul 2025 16:49:15 UTC
-Valid-Until: Mon, 12 Jan 2026 16:49:15 UTC
+Date: Mon, 04 Aug 2025 12:37:04 UTC
+Valid-Until: Fri, 06 Feb 2026 12:37:04 UTC
 Architectures: amd64
 Components: main
 Description: Dangerzone packages (oracular)
 MD5Sum:
- 80423d21e7ddb9bd655fc3be5d4a2394 1106 main/binary-amd64/Packages
- b98b6ec4e80642fab4c8dcad7deb9465 639 main/binary-amd64/Packages.gz
+ 73a857db07f0b11db41fdea1a7613a49 1207 main/binary-amd64/Packages
+ 8954a3c32155a781066cec5f6268ebb2 658 main/binary-amd64/Packages.gz
  34df64df99795fda1633995153c7a5d8 99 main/binary-amd64/Release
 SHA1:
- 25a1f4ab26b0b3d095d49081622926aca52f4260 1106 main/binary-amd64/Packages
- 0082a3fd60b48f12f907f2db2153fa1cb357cb59 639 main/binary-amd64/Packages.gz
+ a58af58330ea47b241305342fbff404923f71207 1207 main/binary-amd64/Packages
+ 54778b9211ed6ed8d86d104f0fbe198c31356631 658 main/binary-amd64/Packages.gz
  0373033d0e5e270014cf8df691b14b4ca206e8b1 99 main/binary-amd64/Release
 SHA256:
- c8629efac9dd2383cc6e455b3bd873f9b1f7ef23d24429f4f8c7d70bff113249 1106 main/binary-amd64/Packages
- 6aecff67ed754980a771cbc2afab439b47c9c5f8dd2640be592ed70e03b340cd 639 main/binary-amd64/Packages.gz
+ 634a58e90c5c00cfcc6a50482b50a07197b32a62c520ae12cb5f08f770df2874 1207 main/binary-amd64/Packages
+ 40888252c4bb4fee26bcbef71c7b37996355cc9d8b401095fec327fae18b935a 658 main/binary-amd64/Packages.gz
  715127b7814c5a05a23fcf4ee596bace983e41ab98308d41cd023b8dc89fb5b6 99 main/binary-amd64/Release
