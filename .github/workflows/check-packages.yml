@@ -30,10 +30,6 @@ jobs:
             distro: ubuntu
             version: "24.04"
             version-name: noble
-          - target: ubuntu-24.10
-            distro: ubuntu
-            version: "24.10"
-            version-name: oracular
           - target: ubuntu-25.04
             distro: ubuntu
             version: "25.04"
