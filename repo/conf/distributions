@@ -39,3 +39,17 @@ Components: main
 Architectures: amd64
 ValidFor: 6m
 Description: Dangerzone packages (plucky)
+
+Origin: Dangerzone
+Codename: questing
+Components: main
+Architectures: amd64
+ValidFor: 6m
+Description: Dangerzone packages (questing)
+
+Origin: Dangerzone
+Codename: forky
+Components: main
+Architectures: amd64
+ValidFor: 6m
+Description: Dangerzone packages (forky)
