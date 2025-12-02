@@ -34,15 +34,22 @@ ValidFor: 6m
 Description: Dangerzone packages (trixie)
 
 Origin: Dangerzone
-Codename: oracular
-Components: main
-Architectures: amd64
-ValidFor: 6m
-Description: Dangerzone packages (oracular)
-
-Origin: Dangerzone
 Codename: plucky
 Components: main
 Architectures: amd64
 ValidFor: 6m
-Description: Dangerzone packages (oracular)
+Description: Dangerzone packages (plucky)
+
+Origin: Dangerzone
+Codename: questing
+Components: main
+Architectures: amd64
+ValidFor: 6m
+Description: Dangerzone packages (questing)
+
+Origin: Dangerzone
+Codename: forky
+Components: main
+Architectures: amd64
+ValidFor: 6m
+Description: Dangerzone packages (forky)
