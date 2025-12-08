@@ -1,0 +1,38 @@
+---
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    container: debian:bookworm
+    steps:
+      - uses: actions/checkout@v4
+      - name: verify signed by release key
+        run: |
+          apt-get update && apt-get install sqv -y
+          KEY=repo/public/fpf-apt-tools-archive-keyring.gpg
+          for release in repo/public/dists/*/Release; do
+            sqv --keyring $KEY "${release}.gpg" "${release}"
+          done
+  metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+          # Fetch all history for listing.py that looks at `git log`
+          fetch-depth: "0"
+      - name: repository metadata is up-to-date
+        run: |
+          ./tools/publish
+          # For some reason this file is not reproducible
+          git checkout repo/db/checksums.db
+          git status
+          if [[ -z $(git status --porcelain) ]]; then
+            echo "Repository is clean"
+          else
+            echo "Repository has uncommitted changes"
+            exit 1
+          fi
