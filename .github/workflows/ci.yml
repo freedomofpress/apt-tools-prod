@@ -30,4 +30,9 @@ jobs:
           # For some reason this file is not reproducible
           git checkout repo/db/checksums.db
           git status
-          git diff --exit-code
+          if [[ -z $(git status --porcelain) ]]; then
+            echo "Repository is clean"
+          else
+            echo "Repository has uncommitted changes"
+            exit 1
+          fi
